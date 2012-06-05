@@ -1,0 +1,4 @@
+File:
+        yanwenzi.txt: storage of the kaos string
+        split.lua: generate extensions file "kaos.lua"
+        kaos.lua: Google Pinyin extension file
