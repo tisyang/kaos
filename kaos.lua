@@ -2860,9 +2860,16 @@ arrays = {
 }
 
 function get_kaos(str)
-    return unpack(dict[str])
+    local t = dict[str]
+    local len = #t
+    if len > 1 then
+        local index = math.random(len)
+        return t[index]
+    else
+        return t[len]
+    end
 end
 
-ime.register_trigger("get_kaos","smile",triggers_1,{})
+math.randomseed(os.time())ime.register_trigger("get_kaos","smile",triggers_1,{})
 ime.register_trigger("get_kaos","smile",triggers_2,{})
 ime.register_trigger("get_kaos","smile",triggers_3,{})

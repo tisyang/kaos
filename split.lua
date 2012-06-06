@@ -75,11 +75,19 @@ write_triggers_parts(arrays, 'arrays', 1, #arrays)
 io.write("\n")
 io.write([==[
 function get_kaos(str)
-    return unpack(dict[str])
+    local t = dict[str]
+    local len = #t
+    if len > 1 then
+        local index = math.random(len)
+        return t[index]
+    else
+        return t[len]
+    end
 end
 ]==])
 
 io.write("\n")
+io.write('math.randomseed(os.time())')
 for _, v in ipairs(arrays) do
     io.write('ime.register_trigger(', '"get_kaos"', ',"smile"', ',', v, ',{})', "\n")
 end
