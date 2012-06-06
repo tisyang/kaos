@@ -87,7 +87,7 @@ end
 ]==])
 
 io.write("\n")
-io.write('math.randomseed(os.time())')
+io.write('math.randomseed(os.time())', "\n")
 for _, v in ipairs(arrays) do
     io.write('ime.register_trigger(', '"get_kaos"', ',"smile"', ',', v, ',{})', "\n")
 end

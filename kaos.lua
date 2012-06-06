@@ -2870,6 +2870,7 @@ function get_kaos(str)
     end
 end
 
-math.randomseed(os.time())ime.register_trigger("get_kaos","smile",triggers_1,{})
+math.randomseed(os.time())
+ime.register_trigger("get_kaos","smile",triggers_1,{})
 ime.register_trigger("get_kaos","smile",triggers_2,{})
 ime.register_trigger("get_kaos","smile",triggers_3,{})
