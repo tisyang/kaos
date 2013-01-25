@@ -1,4 +1,0 @@
-File:
-        yanwenzi.txt: storage of the kaos string, in Sougou Pinyin Format
-        split.lua: generate extensions file "kaos.lua"
-        kaos.lua: Google Pinyin extension file, install this!
