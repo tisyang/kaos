@@ -1,0 +1,135 @@
+# 词库格式
+# 每行表示一个词或者拼音映射
+# 格式如
+#	词:	<拼音><TAB><输出字符><TAB>[汉字或解释]
+#		不包括尖括号, <TAB> 表示制表符,方括号是可选项
+#		例如
+#			"han	= =b	汗"
+#			注解: 制表符不可见
+#			"gaoxing	^_^"
+#			注解:可选的汉字或解释
+#  	拼音映射:<字符串>:<被映射的字符串>
+#		例如
+#			"gx:gaoxing"
+#			注解: "gx" 映射到 "gaoxing" 上
+#			通常用在缩写映射到完整拼音
+# 备注：
+# 	解析词库文件是按行依次解析的
+#
+# 	对于映射的处理: 当前读取到的映射，如果被映射字符串
+# 	在当前读取到的词库中没有对应的输出字符, 那么此映射
+# 	会被忽略; 如果用于映射的字符串在当前读取到的词库中
+# 	已经存在对应的输出字符, 那么此映射也会被忽略, 避免
+# 	歧义
+#
+# 	映射不可以递归
+#
+
+a	OAO	啊
+a	⊙▂⊙	啊
+a	⊙０⊙	啊
+baobao	＼（￣︶￣）／	抱抱
+beifaxianle	( ¯▽¯；)	被发现了
+beiju	︸_︸	悲剧
+biaolei	//( ㄒ o ㄒ )//	飙泪
+biaolei	T^T"///	飙泪
+biechao	＜（－︿－）＞	别吵
+bieku	< ( ￣︶￣ ) ╱ ( o 〒﹏〒 o )	别哭
+chayao	z( U__U )z	叉腰
+chufa	（￣︶￣）↗	出发
+daku	━┳━　━┳━ 	哭
+dangran	(¯^¯ )	当然
+dasini	＜( ￣︿￣)︵θ︵θ︵θ︵θ︵☆（＞口＜－）	打死你
+daxiaoyan	o_O	大小眼
+deyi	(*˘︶˘*)	得意
+deyi	v(￣︶￣)y	得意
+e	⊙︿⊙	额
+ei	⊙▽⊙	诶?
+en	O(∩_∩)O嗯！	嗯
+enen	(♡˙︶˙♡)	嗯嗯
+enen	＜（＠￣︶￣＠）＞	嗯嗯
+enheng	(≖‿ゝ≖)✧	嗯哼
+fangzhuozi	┬─┬ ┬─┬ ┬─┬ノ(●　●ノ)	放桌子
+fudi	_(:з」∠)_ 	伏地
+gaibeizi	(:з[____]	盖被子
+ganbei	（￣▽￣）～■□～（￣▽￣）	干杯
+ganga	╮（￣▽￣）╭	尴尬
+goule	＝ ＝＃	够了
+ha	( ￣▽￣)"	哈
+haixiu	（＃￣▽￣＃）	害羞
+han	= =b	汗
+haogaoxing	^_________________^	好高兴
+haoleng	(>＿<)}}	好冷
+hehe	╭∩╮（￣▽￣）╭∩╮	呵呵
+heng	（︶︿︶）	哼
+hi	☆(─●ω●)ﾉ *	嗨～
+hi	☆“ヽ(｡✪‿✪｡) ﾉ”☆	嗨
+hua	(^_^)∠※	花
+huaiyi	( ﹁ ﹁ ) ~~~→	怀疑
+huaiyi	(¬_¬)	怀疑
+huaiyi	(→_→)	怀疑
+huaiyi	→_→	怀疑
+huanhu	*\ ( ^ v ^ )/*	欢呼
+jiandao	8＜	剪刀
+jiayou	*\(^_^)/*	加油
+jugong	〈（＿　＿）〉	鞠躬
+kaixin	\(≧ω≦)/ 	开心
+kaixin	╰(*´︶`*)╯	开心
+kaixin	＜（￣︶￣）／	开心
+kaixin	＜（￣︶￣）＞	开心
+kan	ಠ_ಠ	看
+kaoyu	<。 )#)))≦	烤鱼
+koushui	(￣﹁￣)	口水
+ku	TAT	哭
+ku	T_T	哭
+ku	ಥ_ಥ	哭
+kunle	(～ o ～)~zZ	困了
+kuqi	～＞＿＜～	哭泣中
+leng	{{{(>_<)}}}	冷
+lianhong	>//////<	脸红
+liulei	（┬＿┬）	流泪
+maomaochong	(‧‧)nnn	毛毛虫
+meigui	--<--<-<@	玫瑰
+meitingdao	|(-_-)|	没听到	
+miao	(=^_^=)	喵
+momotou	<( ￣︶￣)╱(._. )	摸摸头
+nanguo	(｡í _ ì｡)	难过
+nu	(｡•ˇ‸ˇ•｡)	怒
+qian	$_$	见钱眼开
+qingwen	(．．)	请问
+qinqin	(* ˘ ³˘)♡	亲亲
+sahua	‧★,:*:‧\(￣▽￣)/‧:*‧°★*	撒花
+shenmeshi	(‧_‧？)	什么事
+shuijiao	(¦3ꇤ[▓▓]	睡觉
+tanshou	╮(－_－)╭	摊手
+tongku	≧︿≦	痛苦
+tongku	＞﹏＜	痛苦
+wa	(☆＿☆)	哇
+wahaha	(^o^哇)~~(^0^)哈~~(^○^)哈~~	哇哈哈
+wanan	0(^o^)~~YA(^0^)~~SU(^○^)~~MI(^_^)	晚安
+weixiao	◕‿◕	微笑
+wu	( T___T )	唔
+wu	⊙﹏⊙	唔
+wunai	╯▂╰	无奈
+wunai	╯︿╰	无奈
+xianzhuo	(／‵Д′)／~ ╧╧	掀桌
+xianzhuo	（╯‵□′）╯︵┴─┴	掀桌
+xiao	(^﹏^)"	笑
+xiao	≧▽≦	笑
+xiao	（*∩_∩*）	笑
+xiao	＞▽＜	笑
+yanlei	Q_Q	眼泪
+ye	∩__∩y耶~~^^	耶
+yhks:youhuakuaishuo
+yiqi	＜（￣︶￣）＞＜（￣︶￣）＞＜（￣︶￣）＞	一起
+yiwen	◎−◎？	疑问
+youhuakuaishuo	........ ( . .)
+yugutou	<*)>> >=<	鱼骨头
+yun	@_@	晕
+yunle	( E___E )	晕了
+zhaya	*(｡◕‿-｡)"❤	眨眼示爱
+zhu	^(oo)^ =(oo)=""" ~(oo)~	猪
+zhuangsha	* (￣▽￣)" ╮	装傻
+zhuangsha	（～￣▽￣～）	装傻
+zouni	( ☉_☉)≡☞o────★°	走你
+zouni	O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿　	走你
