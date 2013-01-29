@@ -23,7 +23,7 @@ FILE_INFO = """
 
 """
 # 版本信息
-KAOS_VERSION = '2.0.0 beta'
+KAOS_VERSION = '2.1.0 beta'
 
 # 写入扩展文本中的回调函数字符串
 CALLBACK_STR = """
@@ -46,13 +46,9 @@ end
 
 # 词定义行匹配用的正则表达式
 PATTERN_LINE_WORDS = re.compile(r'''
-    # 必须存在部分
-    ([a-z]+)    # 拼音
-    \t+          # TAB分隔
-    ([^\t]+)    # 颜文字, 到 TAB 为止
-    # 可选部分
-    \t*         # 用于分隔可选的汉字或注解
-    (\S*)       # 可选的汉字或注解
+    ([a-z]+)        # 拼音
+    (?:\t+|\ {4,})  # TAB分隔/或者4个以上空格
+    (.+)            # 颜文字
 ''', re.VERBOSE)
 
 # 映射拼音行匹配用的正则表达式
@@ -73,8 +69,7 @@ def parse(filename):
         字典成员:
         字典键为 trigger 字符串
         字典值有两类:
-            集合:   集合成员类型为 tuple, (content, comment) 组成的 tuple
-                    content 就是 trigger 对应的输出词, comment 为注释
+            集合:   集合成员类型为 string, 即颜文字
                     集合所有定义了 trigger 对应的所有输出词集合
             字符串: 这表明这个 trigger 对另一个已有 trigger 的存在映射关系
     '''
@@ -93,7 +88,7 @@ def parse(filename):
             # 先匹配词行定义
             match_word = PATTERN_LINE_WORDS.match(line)
             if match_word:
-                trigger, content, comment = match_word.groups()
+                trigger, content = match_word.groups()
                 assert trigger, "trigger string need"
                 assert content, "content string need"
                 # 如果字典键中已有 trigger
@@ -102,9 +97,9 @@ def parse(filename):
                     # 判断已存在的值的类型
                     # 如果是集合, 表明当前行定义了 trigger 对应的新词
                     # 加入这个新词到集合中
-                    # 词定义为一个 tuple, 第一项为 词内容, 第二项为 汉字解释释义
+                    # 词定义为一个 string
                     if type(c) is set:
-                        c.add((content, comment))
+                        c.add(content)
                         continue
                     # 如果是字符串, 表明当前行定义的 trigger 对应的词
                     # 但是原有词库中此 trigger 映射了另外一个 trigger
@@ -112,7 +107,7 @@ def parse(filename):
                     # 并输出警告
                     elif type(c) is str:
                         dic[trigger] = set()
-                        dic[trigger].add((content, comment))
+                        dic[trigger].add(content)
                         print("warning: reduplicate trigger '{0}', old mapping will be replaced by a word '{1}'".format(trigger, line))
                         continue
                     # 如果是其它类型, 报错退出
@@ -122,7 +117,7 @@ def parse(filename):
                 else:
                     # 新建词定义
                     dic[trigger] = set()
-                    dic[trigger].add((content, comment))
+                    dic[trigger].add(content)
                     continue
             # 匹配映射行定义
             match_mapping = PATTERN_LINE_MAPPING.match(line)
@@ -181,7 +176,7 @@ def convert2lua(dic, filename):
         f.write(FILE_INFO)
         # 写入版本以及修订信息
         f.write('-- 版本 {0}\n'.format(KAOS_VERSION))
-        f.write('-- 生成时间 {0}\n'.format(time.strftime("%Y-%m-%d %H:%M:%S +0800", time.localtime())))
+        f.write('-- 生成时间 {0}\n'.format(time.strftime("%Y-%m-%d %H:%M:%S +0000", time.gmtime())))
         f.write('-- 绑定词条数 {0}\n'.format(len(dic)))
         f.write('\n\n')
         f.write('dict = {\n')
@@ -194,7 +189,7 @@ def convert2lua(dic, filename):
                 f.write('\n\t["{0}"] = {{\n'.format(key))
                 # 依次编码
                 for word in dic[key]:
-                    f.write('\t\t[==[{0}]==],\n'.format(word[0]))
+                    f.write('\t\t[==[{0}]==],\n'.format(word))
                 f.write('\t},\n')
             # 字典值是 字符串的情况
             elif type(dic[key]) is str:
