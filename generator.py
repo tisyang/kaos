@@ -23,7 +23,7 @@ FILE_INFO = """
 
 """
 # 版本信息
-KAOS_VERSION = '2.1.0 beta'
+KAOS_VERSION = '2.1.1'
 
 # 写入扩展文本中的回调函数字符串
 CALLBACK_STR = """
