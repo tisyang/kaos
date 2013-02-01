@@ -1,31 +1,31 @@
 # 词库格式
 # 每行表示一个词或者拼音映射
 # 格式如
-#	词:	<拼音><TAB/4个及以上空格><输出字符>
-#		不包括尖括号, <TAB/4个及以上空格> 表示制表符或者是4个以上的空格作为分隔
-#		例如
-#			"han	= =b"
-#			"gaoxing	^_^"
-#  	拼音映射:<字符串>:<被映射的字符串>
-#		例如
-#			"gx:gaoxing"
-#			注解: "gx" 映射到 "gaoxing" 上
-#			通常用在缩写映射到完整拼音
+#    词:    <拼音><TAB/4个及以上空格><输出字符>
+#        不包括尖括号, <TAB/4个及以上空格> 表示制表符或者是4个以上的空格作为分隔
+#        例如
+#            "han    = =b"
+#            "gaoxing    ^_^"
+#      拼音映射:<字符串>:<被映射的字符串>
+#        例如
+#            "gx:gaoxing"
+#            注解: "gx" 映射到 "gaoxing" 上
+#            通常用在缩写映射到完整拼音
 # 备注：
-# 	解析词库文件是按行依次解析的
+#     解析词库文件是按行依次解析的
 #
-# 	对于映射的处理: 当前读取到的映射，如果被映射字符串
-# 	在当前读取到的词库中没有对应的输出字符, 那么此映射
-# 	会被忽略; 如果用于映射的字符串在当前读取到的词库中
-# 	已经存在对应的输出字符, 那么此映射也会被忽略, 避免
-# 	歧义
+#     对于映射的处理: 当前读取到的映射，如果被映射字符串
+#     在当前读取到的词库中没有对应的输出字符, 那么此映射
+#     会被忽略; 如果用于映射的字符串在当前读取到的词库中
+#     已经存在对应的输出字符, 那么此映射也会被忽略, 避免
+#     歧义
 #
-# 	映射不可以递归
+#     映射不可以递归
 #
 
-a	OAO
-a	⊙▂⊙	
-a	⊙０⊙
+a    OAO
+a    ⊙▂⊙    
+a    ⊙０⊙
 a    (>_<)
 a    w(ﾟДﾟ)w
 aa    ＼（≧Д≦）＜
@@ -56,7 +56,7 @@ baibai    (o^0^o)/~~~~~~~バイバ～イ！！
 baifo    (-人-) [拜佛] 
 baile    (o_ _)ﾉ
 baituo    拜托啦……(^人^) 
-baobao	＼（￣︶￣）／
+baobao    ＼（￣︶￣）／
 baobao    [抱抱]━((*′ ▽｀)爻(′▽｀*))━!!! 
 baobao    [抱抱]━((*′д｀)爻(′д｀*))━!!!! 
 baobao    \(T︶T*\))抱抱~
@@ -68,7 +68,7 @@ baoxiao    ヾ(≧▽≦*)o
 baozaiwoshenshang    ヾ(′▽｀*)ゝ[包在我身上!] 
 bbqiang    超远程BB枪！(＃￣□￣)ｏ―∈‥oo━━━━━━━☆ 
 bei    （；´д｀）ゞ
-beifaxianle	( ¯▽¯；)
+beifaxianle    ( ¯▽¯；)
 beifaxianle    (ˉ▽ˉ；)[呃~被发现了......] 
 bendan    (っ*´Д`)っ
 beng    o(〃'▽'〃)o
@@ -79,12 +79,12 @@ bianmi    o(′益`)o [便秘]
 bianzi    [吃我一鞭!]( `０‘)ノ~~~~~~~~~ν 
 bianzi    §(*￣▽￣*)§[辫子] 
 biao    <(￣3￣)> 表！ 
-biaolei	//( ㄒ o ㄒ )//
-biaolei	T^T"///	
+biaolei    //( ㄒ o ㄒ )//
+biaolei    T^T"///    
 bie    (oﾟ□ﾟ)o
 bie    (＞﹏＜)
-biechao	＜（－︿－）＞	
-bieku	< ( ￣︶￣ ) ╱ ( o 〒﹏〒 o )	
+biechao    ＜（－︿－）＞    
+bieku    < ( ￣︶￣ ) ╱ ( o 〒﹏〒 o )    
 biezou    ______λ......___丬 别走啊～～ 
 biezui    [瘪嘴](*￣︿￣) 
 bimao    (′゜c_，゜` ) [鼻毛] 
@@ -125,7 +125,7 @@ cayanlei    (ノへ￣、)[擦眼泪……]
 ceng    ( *￣▽￣)((≧︶≦*) [蹭] 
 ceng    [蹭](*≧︶≦))(￣▽￣* )ゞ 
 chaoxiao    q(≧▽≦q) 
-chayao	z( U__U )z	
+chayao    z( U__U )z    
 chayao    [叉腰] <)。(> 
 chidiao    ψ(｀∇´)ψ
 chifan    [吃饭去鸟].....(((((ヾ(　o=^·ェ·)o　┏━┓ 
@@ -140,7 +140,7 @@ chouqi    (ノへ￣、)[抽泣]
 chouyan    （￣ c￣）y▂ξ。。。 
 chuai    <( ￣^￣)(θ(θ☆( >_< 
 chuanqiang    ε=ε┣G┻F┳ε=ヽ(*￣▽￣)ノ┻W┫穿墙过去！ 
-chufa	（￣︶￣）↗	
+chufa    （￣︶￣）↗    
 chukou    [EXIT]______λ......_____ 
 chukou    [EXIT]λ…λλ…λ…λλλ… 
 chuo    (～￣▽￣)→))*￣▽￣*)o [手指戳戳] 
@@ -155,20 +155,20 @@ dai    (￣旦￣；)
 dai    ━┳━　━┳━ 
 daizhi    呆滞 ━┳━　━┳━ 
 daji    (。_。)
-daku	━┳━　━┳━ 	
+daku    ━┳━　━┳━     
 danding    淡━━(￣ー￣*|||━━定 
-dangran	(¯^¯ )	
+dangran    (¯^¯ )    
 dangran    当然！<(ˉ^ˉ)> 
 dao    Σ(っ °Д °;)っ 
 dao    Σ(｀д′*ノ)ノ 
 daoba    (-_-メ)[刀疤] 
-dasini	＜( ￣︿￣)︵θ︵θ︵θ︵θ︵☆（＞口＜－）
+dasini    ＜( ￣︿￣)︵θ︵θ︵θ︵θ︵☆（＞口＜－）
 dawenzi    Pia!(ｏ ‵-′)ノ” [臭蚊子!] 
-daxiaoyan	o_O	
+daxiaoyan    o_O    
 dengdeng    ...(*￣０￣)ノ[等等我…我……我…………] 
 dese    ～(￣▽￣～)(～￣▽￣)～ 
-deyi	(*˘︶˘*)
-deyi	v(￣︶￣)y
+deyi    (*˘︶˘*)
+deyi    v(￣︶￣)y
 deyi    <(￣ˇ￣)/ 
 deyi    <(￣︶￣)>
 dggb    动感光波！！！( ￣O￣)ノノ……∞∞OOO))) 
@@ -194,25 +194,25 @@ dun    ||┣(—_＼) [金盾!]
 duo    ┬┴┤_·) 
 duzui    o(￣ε￣*) [嘟嘴] 
 duzui    （○｀ 3′○） [嘟嘴] 
-e	⊙︿⊙
+e    ⊙︿⊙
 e    ("▔□▔) 
 e    (⊙﹏⊙) 
 e    -________-'' 
 e    o(` · ~ · ′。)o 
 e    这个…… 呃~~ -______-" 
-ei	⊙▽⊙	诶?
-en	O(∩_∩)O嗯！
+ei    ⊙▽⊙    诶?
+en    O(∩_∩)O嗯！
 en    嗯~ o(*￣▽￣*)o 
-enen	(♡˙︶˙♡)
-enen	＜（＠￣︶￣＠）＞
+enen    (♡˙︶˙♡)
+enen    ＜（＠￣︶￣＠）＞
 eng    (￣┬￣；)
-enheng	(≖‿ゝ≖)✧	嗯哼
+enheng    (≖‿ゝ≖)✧    嗯哼
 enheng    （￣ー￣）ノ~~マタネー☆’.・.・:★’.・.・:☆’.・.・:★"
 fandui    (ﾟДﾟ*)ﾉ
 fangp    ○|￣|_ =3 
 fangwochuqu    [放我出去~~~] ||Φ|(|T|Д|T|)|Φ|| 
 fangyu    防御！(((＼(￣一￣)/))) 
-fangzhuozi	┬─┬ ┬─┬ ┬─┬ノ(●　●ノ)
+fangzhuozi    ┬─┬ ┬─┬ ┬─┬ノ(●　●ノ)
 fanxing    ( ￣ ￣)σ…( ＿ ＿)ノ｜壁 
 fanzhuo    (╯′□｀)╯ ┫:·'∵:.┻┻:·'.:┣∵·:. ┳┳☆ 
 fanzhuo    (╯‵□′)╯""┻━┻☆))>○<) 
@@ -227,7 +227,7 @@ fenlie    分＞(￣▽￣ = ￣︿￣)<裂
 fenshen    幻影术！(((￣(￣(￣(￣ー￣)￣)￣)￣))) 
 fenshen    无敌影分身！((≧(≧▽(≧▽≦(≧▽≦)≧▽≦)▽≦)≦))) 
 fk    French Kiss! (*￣(￣　*) 
-fudi	_(:з」∠)_ 
+fudi    _(:з」∠)_ 
 fue    (☆´益`)c
 fufu    (￣ˇ￣)v 
 fufu    fufu~ ^u^ 
@@ -235,13 +235,13 @@ fuhuo    ...:.;::..;::: .:.;::….;:￣)…:.;:□￣)(￣□￣*)复活!
 fuqiang    无力扶墙...( ＿ ＿)ノ｜壁 
 fuyanjing    (-@y@) [扶眼镜] 
 gagaga    ．<{=．．．．（嘎~嘎~嘎~） 
-gaibeizi	(:з[____]
-ganbei	（￣▽￣）～■□～（￣▽￣）
+gaibeizi    (:з[____]
+ganbei    （￣▽￣）～■□～（￣▽￣）
 ganbei    (￣▽￣)～■干杯□～(￣▽￣) 
 ganbei    []~(￣▽￣)~*
 ganbei    []~(￣▽￣)~* 干杯！ 
 gandon    感动！o(*≧▽≦*)m 
-ganga	╮（￣▽￣）╭	
+ganga    ╮（￣▽￣）╭    
 gangxing    ゴシゴシ（－＿ヾ）ゴシゴシ（ノ"＿－）
 gao    (*￣▽)u┌┐ ｄ(▽￣*)[高~实在是高!] 
 gaoxing    φ(゜▽゜*)♪ 
@@ -256,7 +256,7 @@ go    <(￣︶￣)↗[GO!]
 good    Good! o(￣▽￣)ｄ 
 gougou    U·ェ·*U [狗狗] 
 gougou    U·ェ·U [狗狗] 
-goule	＝ ＝＃	
+goule    ＝ ＝＃    
 guai    o(*^＠^*)o 乖～ 
 gudan    ______λ......_____ 
 gui    ┏┛墓┗┓...(((m -__-)m 
@@ -264,7 +264,7 @@ guilian    (￣┰￣*)
 gun    滚来滚去……~(～o￣▽￣)～o 。。。滚来滚去……o～(＿△＿o～) ~。。。 
 guzhang    [鼓掌]└(￣ ￣└)(┘￣ ￣)┘[鼓掌] 
 guzhang    ””\\(￣ー￣) (￣ー￣)//””[鼓掌] 
-ha	( ￣▽￣)"
+ha    ( ￣▽￣)"
 ha    (＃°Д°) 
 ha    O口O! 
 ha    Σ(⊙▽⊙"a... 
@@ -275,10 +275,10 @@ hai    (;_;)/~~~
 hai    (=゜ω゜)ノぃょぅ 
 hai    (｡･∀･)ﾉﾞ
 hai    ヾ(≧∇≦*)ゝ
-haixiu	（＃￣▽￣＃）
+haixiu    （＃￣▽￣＃）
 haixiu    (′▽`〃)
 haixiu    o(*////▽////*)q
-han	= =b
+han    = =b
 han    (-_-;)
 han    (寒￣ii￣)彡…彡…彡 
 han    (￣_￣|||) 
@@ -294,22 +294,22 @@ haoa    こヾ(＾ｏ＾*)ん(ｏ＾^)ｏにｏ(＾０＾ｏ)ち(ｏ＾.＾)ノ"
 haoba    好吧…… ╮(╯-╰)╭ 
 haode    (u‿ฺu✿ฺ)
 haode    （゜▽＾*））
-haogaoxing	^_________________^
+haogaoxing    ^_________________^
 haokeai    （*＾-＾*）
 haokuaile    (*^▽^*)
-haoleng	(>＿<)}}
+haoleng    (>＿<)}}
 haoleng    ≡￣﹏￣≡
 haore    (￣∇￣;)
 haoxihuan    (≧∇≦)ﾉ
 haozhuyi    (o゜▽゜)o☆[好主意!] 
-hehe	╭∩╮（￣▽￣）╭∩╮
+hehe    ╭∩╮（￣▽￣）╭∩╮
 hehe    o(*￣▽￣*)o 
 heiban    【】\(·ω·`)o 
 heihei    o(*￣▽￣*)ゞ 
 heihei    タ(^_＾ )ノ　ダ＼(＾_＾) /　 イ( ＾_^)ノマァ～
 heikediguo    [黑*客帝国下腰!] ┌(_Д_┌ )┐ 
 hema    （￣。。￣）[河马] 
-heng	（︶︿︶）
+heng    （︶︿︶）
 heng    ( －з) 
 heng    (ε－ ) 
 heng    (；′⌒`) 
@@ -321,8 +321,8 @@ hh    o(*￣▽￣*)o
 hhh    ^-^ 
 hhh    ^O^ 
 hhhh    快使用双截棍，┗(｀o′)┓哼┏(｀○′)┛哼┏(｀o′)┓哈┗(｀O′)┛兮！！ 
-hi	☆(─●ω●)ﾉ *	嗨～
-hi	☆“ヽ(｡✪‿✪｡) ﾉ”☆	
+hi    ☆(─●ω●)ﾉ *    嗨～
+hi    ☆“ヽ(｡✪‿✪｡) ﾉ”☆    
 hi    Hi~ o(*￣▽￣*)ブ 
 hiahia    ○( ＾皿＾)っHiahiahia.... 
 hoho    (￣y▽￣)╭ Ohohoho..... 
@@ -331,15 +331,15 @@ hosts    C:\windows\system32\drivers\etc
 http    http:// 
 http    https:// 
 hu    （。－_－。）
-hua	(^_^)∠※	
+hua    (^_^)∠※    
 hua    (・∀・)
 huairen    [坏人……] ～(　TロT)σ 
-huaiyi	( ﹁ ﹁ ) ~~~→
-huaiyi	(¬_¬)
-huaiyi	(→_→)
-huaiyi	→_→	
+huaiyi    ( ﹁ ﹁ ) ~~~→
+huaiyi    (¬_¬)
+huaiyi    (→_→)
+huaiyi    →_→    
 hualili    ・:*:・・:*:・ﾟ･*:.｡..｡.:*･ﾟ:*･ﾟﾟ+｡ ＼（*´･∀･｀*）／｡+ﾟﾟ･*:.｡..｡.:*･ﾟﾟ･*:.｡..｡.:*･ﾟ・:*:・・:*:・ 
-huanhu	*\ ( ^ v ^ )/*
+huanhu    *\ ( ^ v ^ )/*
 huany    ( ＾∀＾）／欢迎＼( ＾∀＾） 
 huaquan    _〆(´Д｀ ) 
 huhu    (_　_)。゜zｚＺ 
@@ -351,10 +351,10 @@ huoche    ●┻┓⌒ Σ┌┘車└┐=3 =3 =3
 huojiantong    [火箭筒，发射！](*￣皿￣)=Σ口＞=Σ口＞=Σ口＞ 
 huosheng    [获胜者是……]ヾ(￣ー￣)X(^▽^)ゞ 
 jiaji    无敌肉包拳！(o ￣3)==@))゜ロ゜((@==(′ε′ )o　 
-jiandao	8＜
+jiandao    8＜
 jianxiao    (≖ ‿ ≖)✧
 jiao    (￣～￣) 嚼！ 
-jiayou	*\(^_^)/*
+jiayou    *\(^_^)/*
 jiayou    加油！(o^^)oo(^^o) 
 jing    (⊙ˍ⊙)
 jing    Σ( ° △ °|||)︴ 
@@ -373,19 +373,19 @@ jiushi    ヾ(●゜ⅴ゜)ﾉ
 jizhang    (┘￣︶￣)┘└(￣︶￣└)[GiveMeFive!] 
 jizhang    (〃￣︶￣)人(￣︶￣〃)[击掌] 
 jizhang    [击掌]( ￣ー￣)人(^▽^ ) 
-jugong	〈（＿　＿）〉
+jugong    〈（＿　＿）〉
 jushou    (.・△・）ノ
 jushou    _( ﾟДﾟ)ﾉ
 jushou    o(*^▽^*)┛[举手] 
-kaixin	\(≧ω≦)/ 
-kaixin	╰(*´︶`*)╯
-kaixin	＜（￣︶￣）／
-kaixin	＜（￣︶￣）＞	
+kaixin    \(≧ω≦)/ 
+kaixin    ╰(*´︶`*)╯
+kaixin    ＜（￣︶￣）／
+kaixin    ＜（￣︶￣）＞    
 kalaok    [卡拉OK] ...φ(0￣*)啦啦啦_φ(*￣0￣)′ 
-kan	ಠ_ಠ	
+kan    ಠ_ಠ    
 kanhaonio    (＠＾０＾)看好你哦！ 
 kao    凸(゜皿゜メ) 靠！ 
-kaoyu	<。 )#)))≦
+kaoyu    <。 )#)))≦
 keai    n(*≧▽≦*)n 
 kedou    (°°)～　(°°)～　(°°)～　(°°)～ 
 keke    咳咳＞＜ 
@@ -397,22 +397,22 @@ kira    ☆彡
 kiss    French Kiss!(*￣(￣　*) 
 kita    ｷﾀ━━━━(ﾟ∀ﾟ)━━━━ !!!!!
 kongbu    ┌(。Д。)┐
-koushui	(￣﹁￣)
+koushui    (￣﹁￣)
 koushui    ˋ( ° ▽、° ) 口水ing... 
 koushui    （¯﹃¯）口水ing
-ku	TAT	
-ku	T_T	
-ku	ಥ_ಥ	
+ku    TAT    
+ku    T_T    
+ku    ಥ_ಥ    
 ku    ( >﹏<。)～呜呜呜…… 
 ku    好苦~( ＞﹏＜) 
 ku    （┬＿┬）
-kule	︸_︸
+kule    ︸_︸
 kun    (o-ωｑ)).oO 困，揉眼睛…… 
 kun    (p.-)(p.-)(p.-)ねむねむ
 kun    (￣o￣) . z Z
 kunao    [苦恼] ( -'`-; ) 
-kunle	(～ o ～)~zZ
-kuqi	～＞＿＜～
+kunle    (～ o ～)~zZ
+kuqi    ～＞＿＜～
 la    ~\(≧▽≦)/~啦啦啦
 laila    来啦~(～o￣▽￣)～o ~。。。 
 laile    o(ﾟ∀ﾟ)o
@@ -429,15 +429,15 @@ lei    /(ㄒoㄒ)/~~
 lei    （ ・_・。）ノ~~マタネー☆’.・.・:★’.・.・:☆’.・.・:★" 
 leiben    (PД`q。)·。'゜冰天雪地掩面泪奔…… 
 lejie    (>v<)
-leng	{{{(>_<)}}}
+leng    {{{(>_<)}}}
 lengxiao    （ ￣ー￣）[冷笑] 
 lengzhu    [楞住](°ー°〃) 
-lianhong	>//////<
+lianhong    >//////<
 lianhong    (*/ω＼*)[脸红掩面] 
 liaogai    （○゜∀゜）ノ
 liedui    (*￣^￣(*￣^￣(*￣^￣)[列队] 
 lihai    （。＾▽＾）すごい
-liulei	（┬＿┬）
+liulei    （┬＿┬）
 luanma    ~%?…,# *'☆&℃$︿★? 
 manyi    （´v｀）
 manzu    o(*￣︶￣*)o 
@@ -445,21 +445,21 @@ manzu    o(￣ˇ￣)o
 manzu    ❉罒ω罒❉
 mao    o( =·ω·= )m 
 mao    o(=·ェ·=)m 
-maomaochong	(‧‧)nnn	
+maomaochong    (‧‧)nnn    
 maomaochong    (‧‧)nnn
 maomaochong    [毛毛虫](· ·)nnn 
 maoyan    Φ□Φ
 max    MIN■■■■■□□MAX 
 meibanf    ╮(￣▽￣")╭ 没办法~ 
 meibanfa    ╮（╯＿╰）╭
-meigui	--<--<-<@	
+meigui    --<--<-<@    
 meiren    ||o(*°ω°*)o|Ю [没人在哦?] 
 meiren    ┐(T.T ) ( T.T) ノだれかいる～？
-meitingdao	|(-_-)|	
+meitingdao    |(-_-)|    
 meiwei    Ψ(￣∀￣)Ψ
 mian    (つω｀)～
 mianbi    ( ￣ ￣)σ…( ＿ ＿)ノ｜壁 
-miao	(=^_^=)	
+miao    (=^_^=)    
 miao    =￣ω￣=
 miao    ≡ω≡
 miao    喵~ ＞▽＜ 
@@ -481,14 +481,14 @@ mobai    m(_ _)m
 mojiezuo    Capricorn 
 momo    [摸摸头](～￣▽￣)ノ 
 momo    ╰(￣ω￣ｏ) [摸摸头] 
-momotou	<( ￣︶￣)╱(._. )	
+momotou    <( ￣︶￣)╱(._. )    
 mua    mua! (*╯3╰) 
 n    ヾ(≧へ≦)〃[嗯!] 
 n    嗯！o(￣︶￣)n 
 nage    (．． )"~えっと、あのぉ・・・
 nage    ￣△￣
 nalipao    (///￣皿￣)○～［哪~里跑?!］ 
-nanguo	(｡í _ ì｡)	
+nanguo    (｡í _ ì｡)    
 naozhong    ☆{{{Д}}} ☆!! [铃铃铃] 
 neiniumanmian    〒▽〒
 ni    [是不是你?!](σ｀д′)σ 
@@ -509,7 +509,7 @@ ninini    [你你你……] ～(　TロT)σ
 nishui    ゜゜┌┴o゜゜゜゜°[溺水] 
 niuerduo    捏耳朵！<( ‵□′)>───Ｃε(┬﹏┬)3 
 nnn    [你你你……] ～(　TロT)σ 
-nu	(｡•ˇ‸ˇ•｡)	
+nu    (｡•ˇ‸ˇ•｡)    
 nu    (#‵′) 
 nu    (o#゜ 曲゜)o 
 nu    (╯‵□′)╯︵┻━┻ 
@@ -551,7 +551,7 @@ piao    .....((/- -)/
 pingpang    ( ＾o)ρ┳┻┳°σ(o^ ) [乒乓球] 
 ppr    ︿(￣︶￣)︿[飘飘然……] 
 pu    (/≧▽≦)/
-qian	$_$	
+qian    $_$    
 qiang    ▄︻┻┳═一…… 
 qichuang    ( *′д)/o(_ _)ozzZZ…[起床啦!] 
 qichuang    (o￣ω￣)○))ｏ(＿＿*)Ｚｚｚ[推推~起床啦!] 
@@ -564,8 +564,8 @@ qie    ￢_,￢
 qin    ♪(´ε｀ )
 qing    ( ^ ^) _U~~ 
 qingba    ドモドモ＼(^_^ ) ( ^_^)／ドモドモ
-qingwen	(．．)	
-qinqin	(* ˘ ³˘)♡	
+qingwen    (．．)    
+qinqin    (* ˘ ³˘)♡    
 qinqin    (* ￣)(￣▽￣*)ゞ[亲亲] 
 qinqin    [亲亲]o(*￣3￣)o 
 qinqin    ︶ε╰✿
@@ -588,7 +588,7 @@ reng    ノ￣ー￣)ノ　⌒　>┼○"☆||壁
 renzheb    看我忍者镖！( ‵▽′)ノ'卍卍卍卍卍卍 Σ(゜д゜；) 
 roubaoquan    无敌肉包拳！(o ￣3)==@))゜ロ゜((@==(′ε′ )o 
 ruoruo    (。・・)ノ
-sahua	‧★,:*:‧\(￣▽￣)/‧:*‧°★*	
+sahua    ‧★,:*:‧\(￣▽￣)/‧:*‧°★*    
 sahua    撒花！(￣▽￣)o∠※PAN!=.:*:'☆.:*:'★':* 
 sahua    撒花！*★,°*:.☆\(￣▽￣)/$:*.°★* 。 
 sandan    散弹发射！！▄︻┻┳═一∵∴∷∶∵ (∵_,∵)>>>> 
@@ -603,7 +603,7 @@ shengqi    (ー`´ー)
 shengqi    <(－︿－)> 
 shengqi    （｀へ´）
 shenmedongxi    [靠！什么东西？！] ( ｀д′) 
-shenmeshi	(‧_‧？)	
+shenmeshi    (‧_‧？)    
 shequan    [蛇拳]z(-_-z)).....((s-_-)s 
 shia    (ﾟｰﾟ)
 shia    ﾟ∀ﾟ
@@ -618,7 +618,7 @@ shima    о∀о
 shima    ⊙▽⊙
 shouliudan    [手榴弹!]σ～ (｀′メ　 
 shui    (′д｀ )…彡…彡[衰] 
-shuijiao	(¦3ꇤ[▓▓]	
+shuijiao    (¦3ꇤ[▓▓]    
 shy    shy~ o(*////▽////*)q 
 siba    ´･∀･)乂(･∀･｀
 siba    ┴┴︵╰（‵□′）╯︵┴┴ 
@@ -635,7 +635,7 @@ taibangl    ヾ（≧∇≦）〃
 taibangle    ㄟ(≧◇≦)ㄏ
 taikepale    [太可怕了]ヽ(*。>Д<)o゜ 
 tanhuangq    无敌弹簧拳！( ‵Д′)=○))~~~~~~Ю))>o<)/ 
-tanshou	╮(－_－)╭	
+tanshou    ╮(－_－)╭    
 tanshou    ┐（´ー）┌
 tanshou    ┑(￣Д ￣)┍
 tanshou    ╮( ╯ 3 ╰ )╭ 
@@ -664,8 +664,8 @@ tiaoa    ♪(´∇`*)
 tiaoshi    ( *^-^)ρ(*╯^╰)[不吃!] 
 tiaoxin    <(*￣ー￣)ゞ来啊~[挑衅] 
 tong    ( ゜∀゜)人(゜∀゜ )ナカマー 
-tongku	≧︿≦	
-tongku	＞﹏＜	
+tongku    ≧︿≦    
+tongku    ＞﹏＜    
 tongyi    (。・∀・)ノ
 toukan    [偷看](/ω·＼*) 
 toukan    [偷看](/ω＼*)……… (/ω·＼*) 
@@ -682,14 +682,14 @@ tuisan    o( ﾟoﾟ)==○
 tun    0＾）吞！ 
 tuozou    ヽ(゜▽゜　)－C<(/;◇;)/~[拖走] 
 tushetou    (￣┰￣*) 
-wa	(☆＿☆)	
+wa    (☆＿☆)    
 wa    (PД`q。)·。'゜ 
 wabishi    [挖鼻屎] (*￣rǒ￣) 
-wahaha	(^o^哇)~~(^0^)哈~~(^○^)哈~~	
+wahaha    (^o^哇)~~(^0^)哈~~(^○^)哈~~    
 wakkk    <(￣▽￣)/ 
 wakkk    哇卡卡卡卡卡……o((≧▽≦o) 太好笑了！！ 
 walie    哇咧！Σ(⊙▽⊙"a... 
-wanan	0(^o^)~~YA(^0^)~~SU(^○^)~~MI(^_^)
+wanan    0(^o^)~~YA(^0^)~~SU(^○^)~~MI(^_^)
 wanan    お(ノ￣0￣)ノや（o￣ ・￣）oす(。＿　＿)。みZZzzzz….
 wanshanghao    ￣O￣)ノ　こんばんは
 wansui    万岁！*★,°*:.☆\(￣▽￣)/$:*.°★* 。 
@@ -705,7 +705,7 @@ weimiao    (　´∀｀)・ω・) ゜Д゜)・∀・)￣ー￣)´_ゝ`)Σ(´ⅴ�
 weinan    ಠ__ಠ
 weiqu    ╥﹏╥... 
 weisuo    (o´∀｀)
-weixiao	◕‿◕	
+weixiao    ◕‿◕    
 wenbie    [吻别](*￣;(￣ *) 
 wo    (*゜ロ゜)ノ
 wo    [呃~我……]σ(-_-メ) 
@@ -720,12 +720,12 @@ woq    o(￣ヘ￣o＃) 握拳！
 woquan    o(￣ヘ￣o* )[握拳!] 
 woshou    (≧∀≦*)ﾉ 
 wow    wow~ ⊙o⊙ 
-wu	( T___T )	
-wu	⊙﹏⊙	
+wu    ( T___T )    
+wu    ⊙﹏⊙    
 wudi    ↑↑↓↓←→←→ＢＡ...┗( -o-)┛无敌！ 
 wugu    （o´・ェ・｀o）
-wunai	╯▂╰	
-wunai	╯︿╰	
+wunai    ╯▂╰    
+wunai    ╯︿╰    
 wunai    [无奈]╮(╯-╰)╭ 
 wunai    ╮(╯▽╰)╭
 wushi    (☆-ｖ-)
@@ -739,13 +739,13 @@ xia    (*Φ皿Φ*)
 xiang    (╯▽╰ ) 好香~~ 
 xiangshou    [享受](╯▽╰ ) 
 xianz    （╯‵□′）╯ノ┻━┻☆
-xianzhuo	(／‵Д′)／~ ╧╧	
-xianzhuo	（╯‵□′）╯︵┴─┴	
+xianzhuo    (／‵Д′)／~ ╧╧    
+xianzhuo    （╯‵□′）╯︵┴─┴    
 xianzhuo    （╯－＿－）╯╧╧
-xiao	(^﹏^)"
-xiao	≧▽≦	
-xiao	（*∩_∩*）	
-xiao	＞▽＜	
+xiao    (^﹏^)"
+xiao    ≧▽≦    
+xiao    （*∩_∩*）    
+xiao    ＞▽＜    
 xiao    ……o((≧▽≦o) 太好笑了！！ 
 xiao    ＾▼＾
 xiaoheiwu    【小黑屋】ヽ(￣︿￣　)—C<(/;◇;)/ 
@@ -786,11 +786,11 @@ ya    [壁]・_・)ノ やぁ
 ya    （*≧ｍ≦*）
 yada    (≧∀≦*)ﾉ 
 yanjing    (-@y@) [扶眼镜] 
-yanlei	Q_Q	
+yanlei    Q_Q    
 yanmian    (*/ω＼*)[脸红掩面] 
 yanshen    ━┳━　━┳━ 
 yanwenzi    ag108lau 
-ye	∩__∩y耶~~^^	
+ye    ∩__∩y耶~~^^    
 ye    (＾－＾)V
 yesi    [噎死] ( *⊙~⊙) 
 yessir    Yes,sir! <(￣O￣)/ 
@@ -800,14 +800,14 @@ yi    (・∀・(・∀・(・∀・*)
 yinggoubi    (￣ム￣) [鹰钩鼻] 
 yinshen    忍术~隐！（￣人￣）（￣人:.;:…（￣...:.;::..;::: .:;.…::;.:..:;.:... 
 yinshen    隐身！(*￣□￣)(￣□:;.…::;.:.:::;..::;.:... 
-yiqi	＜（￣︶￣）＞＜（￣︶￣）＞＜（￣︶￣）＞	
+yiqi    ＜（￣︶￣）＞＜（￣︶￣）＞＜（￣︶￣）＞    
 yiqi    ╭(′▽`)╭(′▽`)╯ 
 yiqi    ヽ(￣ω￣(￣ω￣〃)ゝ 
-yiwen	◎−◎？	
+yiwen    ◎−◎？    
 yo    (＾Ｕ＾)ノ~ＹＯ 
 yo    (￣(エ)￣)ノ よー 
 you    ーー（＾Ｕ＾）ノーーＹＯ 
-youhuakuaishuo	........ ( . .)
+youhuakuaishuo    ........ ( . .)
 youle    (o゜▽゜)o☆[有了!] 
 youpie    ━━┳　━━┳ 
 yourenma    ||o(*°▽°*)o|Ю [有人吗?]
@@ -816,12 +816,12 @@ yu    >°)))>彡
 yuanlai    ('-'*)
 yuannian    o(一︿一+)o 怨.念.... 
 yufeng    御风_凌 
-yugutou	<*)>> >=<	
-yun	@_@	
+yugutou    <*)>> >=<    
+yun    @_@    
 yun    (((φ(◎ロ◎;)φ))) 
 yun    晕！@o@" 
 yundong    [运动]╔囧╗╔囧╝╚囧╝╚囧╗ 
-yunle	( E___E )	
+yunle    ( E___E )    
 zaijian    (*^-ﾟ)
 zaijian    (。・_・)/~~~またね～
 zaijian    (ﾟ∇^*)
@@ -839,7 +839,7 @@ zhadan    (╯‵□′)╯炸弹！···*～●
 zhan    ˋ( ° ▽、° ) (o(￣▽￣///(斩!!) 
 zhang    涨(￣︶￣)↗ 
 zhaoxiang    Σ[ ◎ ]} 
-zhaya	*(｡◕‿-｡)"❤	
+zhaya    *(｡◕‿-｡)"❤    
 zhayan    ο(=·ω＜=)ρ⌒☆[媚眼] 
 zhe    ((*・∀・）ゞ→→
 zhenda    [真哒?!] o(〃'▽'〃)o 
@@ -862,20 +862,20 @@ zhixingxing    [两罐纸星星](*ˉ﹃ˉ)_☆☆
 zhizhangmao    ( ゜，_ゝ゜) [痣长毛] 
 zhoumei    [皱眉](-"-) 
 zhoumei    _(:3」∠)_
-zhu	^(oo)^ =(oo)=""" ~(oo)~	
+zhu    ^(oo)^ =(oo)=""" ~(oo)~    
 zhu    [猪]^(*￣(oo)￣)^ 
 zhua    W(￣_￣)W 
 zhuakuang    [抓狂]"o((>ω< ))o" 
 zhuakuang    [抓狂]o(>@<)o 
 zhuangqiang    ┳G┻F┳W┫☆(ノ﹏<。) 
-zhuangsha	* (￣▽￣)" ╮	
-zhuangsha	（～￣▽￣～）	
+zhuangsha    * (￣▽￣)" ╮    
+zhuangsha    （～￣▽￣～）    
 zhui    o(°▽、°o)....+((￣﹏￣m )~ 你给我回来！ 
 zhuisha    --＝＝≡≡〈〈《( /￣皿￣)=Ｏ));>o<）/ 
 zhuisha    o(°▽、°o)....+((￣﹏￣m ) 
 zisha    …〒_〒…‵ｏ′-一┳═┻︻▄［畏罪自杀…］ 
-zouni	( ☉_☉)≡☞o────★°	
-zouni	O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿　	
+zouni    ( ☉_☉)≡☞o────★°    
+zouni    O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿　    
 zuijiao    (*ﾟｰﾟ)
 zuiquan    [醉拳]ヨロ (*~▽~)ノ ヨロ ヽ(~▽~*）ヨロ (*~▽~)―〇 ☆ バシ ))>口<) 
 zuomeng    ZZzz…(。-ω-)..ooO((【·:*:~夢~:*:·】)) 
