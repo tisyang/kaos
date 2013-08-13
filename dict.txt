@@ -70,6 +70,7 @@ choup    ヾ(′▽｀*)ゝ[包在我身上!]
 chouqi    (ノへ￣、)[抽泣]
 chufa    （￣︶￣）↗
 chuolian    →)╥﹏╥) [戳]
+cuo    ×
 dagai    (・-・*)
 dai    ━┳━　━┳━
 daji    (。_。)
@@ -77,12 +78,15 @@ daku    ━┳━　━┳━
 dangran    (¯^¯ )
 dangran    <(ˉ^ˉ)>
 daxiaoyan    o_O
+denghao    〓 
 dese    ～(￣▽￣～)(～￣▽￣)～
 deyi    (*˘︶˘*)
 deyi    <(￣ˇ￣)/
 deyi    <(￣︶￣)>
 deyi    v(￣︶￣)y
 ditou    (．_．〃）ゝ…
+du    ° 
+dui    √
 dui    ＜（＾－＾）＞
 e    ("▔□▔)
 e    (⊙﹏⊙)
@@ -96,7 +100,10 @@ enen    ＜（＠￣︶￣＠）＞
 eng    (￣┬￣；)
 enheng    (≖‿ゝ≖)✧    嗯哼
 fandui    (ﾟДﾟ*)ﾉ
+fangkuai    ■ 
+fangkuai    □
 fei    ︿(￣︶￣)︿
+fen    ′
 fudi    _(:з」∠)_
 gaibeizi    (:з[____]
 ganbei    []~(￣▽￣)~*
@@ -226,6 +233,8 @@ leng    {{{(>_<)}}}
 lengzhu    [楞住](°ー°〃)
 lianhong    (*/ω＼*)[脸红掩面]
 lianhong    >//////<
+lingxing    ◆ 
+lingxing    ◇
 liulei    （┬＿┬）
 manzu    o(*￣︶￣*)o
 manzu    o(￣ˇ￣)o
@@ -235,6 +244,7 @@ meiren    ┐(T.T ) ( T.T) ノだれかいる～？
 mianbi    ( ￣ ￣)σ…( ＿ ＿)ノ｜壁
 miao    (=^_^=)
 miao    =￣ω￣=
+miao    ″
 miao    ≡ω≡
 miao    喵~ ＞▽＜
 miao    喵~o( =∩ω∩= )m
@@ -307,11 +317,15 @@ sahua    ‧★,:*:‧\(￣▽￣)/‧:*‧°★*
 sahua    撒花！(￣▽￣)o∠※PAN!=.:*:'☆.:*:'★':*
 sahua    撒花！*★,°*:.☆\(￣▽￣)/$:*.°★* 。
 sandan    散弹发射！！▄︻┻┳═一∵∴∷∶∵ (∵_,∵)>>>>
+sanjiao    ▲ 
+sanjiao    △
+shang    ↑ 
 shena    神啊~\(￣0￣)/
 shengqi    (ー`´ー)
 shengqi    <(－︿－)>
 shengqi    （｀へ´）
 shenmeshi    (‧_‧？)
+sheshidu    ℃
 shia    (ﾟｰﾟ)
 shia    ﾟ∀ﾟ
 shiashia    ヾ(＠⌒ー⌒＠)ノ
@@ -394,6 +408,7 @@ wunai    ╮(╯▽╰)╭
 wunai    ╯▂╰
 wunai    ╯︿╰
 xia    (*Φ皿Φ*)
+xia    ↓ 
 xiang    (╯▽╰ ) 好香~~
 xiangshou    [享受](╯▽╰ )
 xianzhuo    (／‵Д′)／~ ╧╧
@@ -415,6 +430,8 @@ xieyan    (﹁"﹁)
 xingfen    (p≧w≦q)
 xingfu    o(*￣▽￣*)o
 xinghao    ε=(￣。￣;A 呼~幸好幸好……
+xingxing    ★ 
+xingxing    ☆
 xingxingyan    (☆ｗ☆)
 xinshenbuning    (゜゜ )心(。。)神(゜゜ )不(。。)宁"...
 xinwei    ( ╯▽╰)[欣慰]
@@ -440,6 +457,7 @@ yi    (・∀・(・∀・(・∀・*)
 yiwen    ◎−◎？
 yo    (＾Ｕ＾)ノ~ＹＯ
 yo    (￣(エ)￣)ノ よー
+you    →
 you    ーー（＾Ｕ＾）ノーーＹＯ
 youhuakuaishuo    ........ ( . .)
 youle    (o゜▽゜)o☆[有了!]
@@ -447,6 +465,8 @@ youpie    ━━┳　━━┳
 yourenma    ||o(*°▽°*)o|Ю [有人吗?]
 yoxi    哟西！（９￣＾￣）９
 yu    >°)))>彡
+yuan    ○
+yuan    ●
 yuanlai    ('-'*)
 yuannian    o(一︿一+)o 怨.念....
 yugutou    <*)>> >=<
@@ -496,5 +516,6 @@ zisha    …〒_〒…‵ｏ′-一┳═┻︻▄［畏罪自杀…］
 zouni    ( ☉_☉)≡☞o────★°
 zouni    O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿　
 zuijiao    (*ﾟｰﾟ)
+zuo    ← 
 zuomeng    ZZzz…(。-ω-)..ooO((【·:*:~夢~:*:·】))
 zuopie    ┳━━　┳━━

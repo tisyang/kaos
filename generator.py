@@ -3,35 +3,28 @@ import re
 import time
 import math
 import io
+import codecs
 
 # 每次注册使用 triggers 数量最大值
 # 此限制源于 Google 拼音输入法扩展 API 参考指南
-MAX_REGISTER_TRIGGERS = 200
-# 写入扩展文本中的文件信息
-FILE_INFO = """
--- 颜文字扩展
--- 在输入一些特定的拼音字母时，候选会显示一些表情
--- 比如 'ai'，会显示 '╮（﹀＿﹀）╭' 在最后的一个选项中
+__MAX_REGISTER_TRIGGERS = 200
 
--- 一些已知问题
---  1. 候选的表情总是在候选列表最后，这是谷歌输入法本身的设置所致
---  2. 某些拼音对应多个表情，但是目前谷歌输入法只能显示第一个
-
--- bug 反馈以及意见反馈请联系 tisyang
--- 项目地址: https://github.com/tisyang/kaos/
--- blog: http://tisyang.i11r.com
-
+# 写入扩展文本中的生成器信息
+GEN_INFO = """
+---- 本文件由颜文字扩展生成器 kaos 自动生成
+---- 项目地址: https://github.com/tisyang/kaos/
 """
-# 版本信息
-KAOS_VERSION = '2.2.2'
+
+# 生成器版本号
+GEN_VERSION = "1.0"
 
 # 写入扩展文本中的回调函数字符串
-CALLBACK_STR = """
-function get_kaos(str)
-    local t = dict[str]
+__CALLBACK_STR = """
+function prefix_get_kaos(str)
+    local t = prefix_dict[str]
     if not t then return str end
     if 'string' == type(t) then
-        t = dict[t]
+        t = prefix_dict[t]
     end
     local len = #t
     if len > 1 then
@@ -43,16 +36,19 @@ function get_kaos(str)
 end
 
 """
+def __get_callback_str(prefix):
+    return __CALLBACK_STR.replace("prefix", "{0}".format(prefix))
+
 
 # 词定义行匹配用的正则表达式
-PATTERN_LINE_WORDS = re.compile(r'''
+__PATTERN_LINE_WORDS = re.compile(r'''
     ([a-z]+)        # 拼音
     (?:\t+|\ {4,})  # TAB分隔/或者4个以上空格
     (.+)            # 颜文字
 ''', re.VERBOSE)
 
 # 映射拼音行匹配用的正则表达式
-PATTERN_LINE_MAPPING = re.compile(r'''
+__PATTERN_LINE_MAPPING = re.compile(r'''
     ([a-z]+)    # 拼音
     \s*         # 空白符
     :           # 冒号分隔符
@@ -86,7 +82,7 @@ def parse(filename):
             if not line:
                 continue
             # 先匹配词行定义
-            match_word = PATTERN_LINE_WORDS.match(line)
+            match_word = __PATTERN_LINE_WORDS.match(line)
             if match_word:
                 trigger, content = match_word.groups()
                 assert trigger, "trigger string need"
@@ -120,7 +116,7 @@ def parse(filename):
                     dic[trigger].add(content)
                     continue
             # 匹配映射行定义
-            match_mapping = PATTERN_LINE_MAPPING.match(line)
+            match_mapping = __PATTERN_LINE_MAPPING.match(line)
             if match_mapping:
                 trigger, mapping = match_mapping.groups()
                 assert trigger, "trigger string need"
@@ -154,7 +150,7 @@ def parse(filename):
             print("warning: match failed in line '{0}'".format(line))
     return dic
 
-def serialize_triggers(triggers_list, triggers_name):
+def __serialize_triggers(triggers_list, triggers_name):
     '''将一系列 trigger 序列化为 lua 源代码
     '''
     output = io.StringIO()
@@ -166,20 +162,29 @@ def serialize_triggers(triggers_list, triggers_name):
     output.close()
     return res
 
-def convert2lua(dic, filename):
-    '''转换词库定义到新文件
-
+def convert2lua(prefix, dic, filename, info, hintstr):
+    '''转换词库定义为扩展文件
+    参数:
+        prefix: 由于谷歌拼音会把扩展中的符号都放入全局空间，所以需要一个独特
+                前缀来避免不同扩展符号混淆
+        dic: 解析的词库
+        info: 扩展说明文字
+        hintstr: 注册扩展时候的说明性文字
 
     '''
     with open(filename, mode='w', encoding="utf-8") as f:
         f.write('--coding:utf-8\n')
-        f.write(FILE_INFO)
+        # 写入扩展说明信息
+        f.write(info)
+        f.write('\n')
+        f.write('-- 生成时间: {0}\n'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
+        f.write('-- 绑定词条数: {0}\n\n'.format(len(dic)))
+        # 写入生成器信息
+        f.write(GEN_INFO)
         # 写入版本以及修订信息
-        f.write('-- 版本 {0}\n'.format(KAOS_VERSION))
-        f.write('-- 生成时间 {0}\n'.format(time.strftime("%Y-%m-%d %H:%M:%S +0000", time.gmtime())))
-        f.write('-- 绑定词条数 {0}\n'.format(len(dic)))
+        f.write('---- 生成器版本: {0}\n\n'.format(GEN_VERSION))
         f.write('\n\n')
-        f.write('dict = {\n')
+        f.write('{0}_dict = {{\n'.format(prefix))
         # 顺序遍历词库
         triggers = list(dic.keys())
         triggers.sort()
@@ -202,31 +207,23 @@ def convert2lua(dic, filename):
         # 分割 triggers
         # 每组 triggers 不超过 MAX_REGISTER_TRIGGERS
         count = len(triggers)
-        groups_count = math.ceil(count / MAX_REGISTER_TRIGGERS)
+        groups_count = math.ceil(count / __MAX_REGISTER_TRIGGERS)
         groups = []
         for i in range(groups_count):
-            triggers_name = "triggers_{0}".format(i)
-            start = i * MAX_REGISTER_TRIGGERS
-            end = start + MAX_REGISTER_TRIGGERS
+            triggers_name = "{0}_triggers_{1}".format(prefix, i)
+            start = i * __MAX_REGISTER_TRIGGERS
+            end = start + __MAX_REGISTER_TRIGGERS
             triggers_list = triggers[start:end]
-            triggers_str = serialize_triggers(triggers_list, triggers_name)
+            triggers_str = __serialize_triggers(triggers_list, triggers_name)
             f.write(triggers_str)
             f.write('\n')
             groups.append(triggers_name)
 
         # 写入回调函数
-        f.write(CALLBACK_STR)
+        f.write(__get_callback_str(prefix))
         # 写入注册函数
         # 写入随机种子发生器函数
         f.write('math.randomseed(os.time())\n')
         # 依次注册
         for triggers_name in groups:
-            f.write('ime.register_trigger("get_kaos", "yanwenzi", {0}, {{}})\n'.format(triggers_name))
-
-
-
-if __name__ == '__main__':
-    filename = "dict.txt"
-    output = "kaos.lua"
-    dic = parse(filename)
-    convert2lua(dic, output)
+            f.write('ime.register_trigger("{0}_get_kaos", \"{1}\", {2}, {{}})\n'.format(prefix, hintstr, triggers_name))
