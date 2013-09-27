@@ -193,7 +193,10 @@ def convert2lua(prefix, dic, filename, info, hintstr):
             if type(dic[key]) is set:
                 f.write('\n\t["{0}"] = {{\n'.format(key))
                 # 依次编码
-                for word in dic[key]:
+                # 排序
+                lst = list(dic[key])
+                lst.sort()
+                for word in lst:
                     f.write('\t\t[==[{0}]==],\n'.format(word))
                 f.write('\t},\n')
             # 字典值是 字符串的情况
