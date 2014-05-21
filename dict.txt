@@ -78,14 +78,14 @@ daku    ━┳━　━┳━
 dangran    (¯^¯ )
 dangran    <(ˉ^ˉ)>
 daxiaoyan    o_O
-denghao    〓 
+denghao    〓
 dese    ～(￣▽￣～)(～￣▽￣)～
 deyi    (*˘︶˘*)
 deyi    <(￣ˇ￣)/
 deyi    <(￣︶￣)>
 deyi    v(￣︶￣)y
 ditou    (．_．〃）ゝ…
-du    ° 
+du    °
 dui    ＜（＾－＾）＞
 e    ("▔□▔)
 e    (⊙﹏⊙)
@@ -96,10 +96,7 @@ en    O(∩_∩)O嗯！
 en    嗯~ o(*￣▽￣*)o
 enen    (♡˙︶˙♡)
 enen    ＜（＠￣︶￣＠）＞
-eng    (￣┬￣；)
-enheng    (≖‿ゝ≖)✧    嗯哼
-fandui    (ﾟДﾟ*)ﾉ
-fangkuai    ■ 
+fangkuai    ■
 fangkuai    □
 fei    ︿(￣︶￣)︿
 fen    ′
@@ -233,7 +230,7 @@ leng    {{{(>_<)}}}
 lengzhu    [楞住](°ー°〃)
 lianhong    (*/ω＼*)[脸红掩面]
 lianhong    >//////<
-lingxing    ◆ 
+lingxing    ◆
 lingxing    ◇
 liulei    （┬＿┬）
 manzu    o(*￣︶￣*)o
@@ -270,14 +267,10 @@ nihao    (￣▽￣)ノ
 nihao    ヾ(´･ω･｀)ﾉ
 nihuilaila    ヾ(^▽^*))) 你回来啦~~
 nini    [你你你……] ～(　TロT)σ
-nnn    [你你你……] ～(　TロT)σ
-nu    (o#゜ 曲゜)o
 nu    (｡•ˇ‸ˇ•｡)
-nu    （╬￣皿￣）
 o    (⊙o⊙)？
 o    (〓￣(∵エ∵)￣〓)
 o    _(￣0￣)_[哦~]
-o    ｍ(o・ω・o)ｍ
 o    ￣o￣
 ohno    Oh~ no！！！！
 ohye    Oh yeah！\(^&^)/
@@ -317,9 +310,9 @@ sahua    ‧★,:*:‧\(￣▽￣)/‧:*‧°★*
 sahua    撒花！(￣▽￣)o∠※PAN!=.:*:'☆.:*:'★':*
 sahua    撒花！*★,°*:.☆\(￣▽￣)/$:*.°★* 。
 sandan    散弹发射！！▄︻┻┳═一∵∴∷∶∵ (∵_,∵)>>>>
-sanjiao    ▲ 
+sanjiao    ▲
 sanjiao    △
-shang    ↑ 
+shang    ↑
 shena    神啊~\(￣0￣)/
 shengqi    (ー`´ー)
 shengqi    <(－︿－)>
@@ -408,7 +401,7 @@ wunai    ╮(╯▽╰)╭
 wunai    ╯▂╰
 wunai    ╯︿╰
 xia    (*Φ皿Φ*)
-xia    ↓ 
+xia    ↓
 xiang    (╯▽╰ ) 好香~~
 xiangshou    [享受](╯▽╰ )
 xianzhuo    (／‵Д′)／~ ╧╧
@@ -430,7 +423,7 @@ xieyan    (﹁"﹁)
 xingfen    (p≧w≦q)
 xingfu    o(*￣▽￣*)o
 xinghao    ε=(￣。￣;A 呼~幸好幸好……
-xingxing    ★ 
+xingxing    ★
 xingxing    ☆
 xingxingyan    (☆ｗ☆)
 xinshenbuning    (゜゜ )心(。。)神(゜゜ )不(。。)宁"...
@@ -471,8 +464,6 @@ yuanlai    ('-'*)
 yuannian    o(一︿一+)o 怨.念....
 yugutou    <*)>> >=<
 yun    @_@
-yun    晕！@o@"
-yundong    [运动]╔囧╗╔囧╝╚囧╝╚囧╗
 yunle    ( E___E )
 zaijian    (*^-ﾟ)
 zaijian    (。・_・)/~~~またね～
@@ -498,9 +489,6 @@ zheyanga    ━━┳━━゛_゛━━┳━━
 zheyangme    (=′ー`)
 zhi    (﹁ ﹁ )σ[那边那个]
 zhi    <(￣ ﹌ ￣)@m
-zhi    [就你好了~] (＠゜▽゜)
-zhi    [就是他!] (＠｀д′)
-zhi    ！？∑（＠Д＠）
 zhoumei    _(:3」∠)_
 zhu    [猪]^(*￣(oo)￣)^
 zhu    ^(oo)^ =(oo)=""" ~(oo)~
@@ -516,6 +504,6 @@ zisha    …〒_〒…‵ｏ′-一┳═┻︻▄［畏罪自杀…］
 zouni    ( ☉_☉)≡☞o────★°
 zouni    O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿　
 zuijiao    (*ﾟｰﾟ)
-zuo    ← 
+zuo    ←
 zuomeng    ZZzz…(。-ω-)..ooO((【·:*:~夢~:*:·】))
 zuopie    ┳━━　┳━━
