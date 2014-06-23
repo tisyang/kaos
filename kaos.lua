@@ -1,5 +1,4 @@
 --coding:utf-8
-
 -- 颜文字扩展
 -- 在输入一些特定的拼音字母时，候选会显示一些表情
 -- 比如 'ai'，会显示 '╮（﹀＿﹀）╭' 在最后的一个选项中
@@ -11,20 +10,10 @@
 -- bug 反馈以及意见反馈请联系 tisyang
 -- 项目地址: https://github.com/tisyang/kaos/
 -- blog: http://tisyang.i11r.com
+-- 生成时间: 2014-06-23 20:02:09 +0800
+-- 颜文字词条数: 312
 
-
--- 生成时间: 2014-05-21 21:41:57
--- 绑定词条数: 312
-
-
----- 本文件由颜文字扩展生成器 kaos 自动生成
----- 项目地址: https://github.com/tisyang/kaos/
----- 生成器版本: 1.0
-
-
-
-kaos_dict = {
-
+dict = {
 	["a"] = {
 		[==[(>_<)]==],
 		[==[w(ﾟДﾟ)w]==],
@@ -1424,7 +1413,7 @@ kaos_dict = {
 
 	["zouni"] = {
 		[==[( ☉_☉)≡☞o────★°]==],
-		[==[O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿]==],
+		[==[O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿　]==],
 	},
 
 	["zuijiao"] = {
@@ -1442,8 +1431,10 @@ kaos_dict = {
 	["zuopie"] = {
 		[==[┳━━　┳━━]==],
 	},
+
 }
-kaos_triggers_0 = {
+
+trigger_0 = {
 	'a',
 	'aaa',
 	'ai',
@@ -1646,7 +1637,7 @@ kaos_triggers_0 = {
 	'tao',
 }
 
-kaos_triggers_1 = {
+trigger_1 = {
 	'taoa',
 	'taoming',
 	'taoyan',
@@ -1761,12 +1752,11 @@ kaos_triggers_1 = {
 	'zuopie',
 }
 
-
-function kaos_get_kaos(str)
-    local t = kaos_dict[str]
+function get_kaos(str)
+    local t = dict[str]
     if not t then return str end
     if 'string' == type(t) then
-        t = kaos_dict[t]
+        t = dict[t]
     end
     local len = #t
     if len > 1 then
@@ -1778,5 +1768,5 @@ function kaos_get_kaos(str)
 end
 
 math.randomseed(os.time())
-ime.register_trigger("kaos_get_kaos", "kaos", kaos_triggers_0, {})
-ime.register_trigger("kaos_get_kaos", "kaos", kaos_triggers_1, {})
+ime.register_trigger("get_kaos", "kaos", trigger_0, {})
+ime.register_trigger("get_kaos", "kaos", trigger_1, {})
