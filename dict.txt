@@ -11,7 +11,6 @@
 #
 
 a    (>_<)
-a    w(ﾟДﾟ)w
 a    ⊙▂⊙
 a    ⊙０⊙
 aaa    "o((>ω< ))o"
@@ -100,10 +99,8 @@ gou    √
 goule    ＝ ＝＃
 guai    o(*^＠^*)o 乖～
 gun    滚来滚去……~(～o￣▽￣)～o 。。。滚来滚去……o～(＿△＿o～) ~。。。
+ha    (´・ω・`)
 ha    ( ￣▽￣)"
-ha    (＃°Д°)
-ha    O口O!
-ha    Σ(⊙▽⊙"a...
 ha    ＞▽＜
 haha    *´∀`)´∀`)*´∀`)*´∀`)
 haha    o(*≧▽≦)ツ
@@ -321,7 +318,6 @@ soga    ▔▽▔
 t    <( ￣^￣)(θ(θ☆( >_<
 taibangl    ヾ（≧∇≦）〃
 taibangle    ㄟ(≧◇≦)ㄏ
-tanshou    ┐（´ー）┌
 tanshou    ┑(￣Д ￣)┍
 tanshou    ╮(╯-╰)╭
 tanshou    ╮(－_－)╭
