@@ -31,6 +31,7 @@ bai    ヾ(￣▽￣)Bye~Bye~
 baibai    (o^0^o)/~~~~~~~バイバ～イ！！
 baifo    (-人-) [拜佛]
 baile    (o_ _)ﾉ
+bang    (๑•̀ㅂ•́)و✧
 baobao    \(T︶T*\))抱抱~
 baobao    \(￣︶￣)/ 抱抱~
 baobao    \(￣︶￣*\))抱抱~
@@ -53,6 +54,7 @@ ceng    [蹭](*≧︶≦))(￣▽￣* )ゞ
 cha    ×
 chaoxiao    q(≧▽≦q)
 chiyao    (。>︿<)_θ[吃药]
+chou    (￣ε(#￣)☆╰╮o(￣皿￣///)
 choup    ヾ(′▽｀*)ゝ[包在我身上!]
 chouqi    (ノへ￣、)[抽泣]
 chufa    （￣︶￣）↗
@@ -74,7 +76,9 @@ ditou    (．_．〃）ゝ…
 du    °
 dui    ＜（＾－＾）＞
 e    ("▔□▔)
+e    (°ー°〃)
 e    (⊙﹏⊙)
+e    (。﹏。*)
 e    -________-''
 e    o(` · ~ · ′。)o
 e    ⊙︿⊙
@@ -99,18 +103,20 @@ gou    √
 goule    ＝ ＝＃
 guai    o(*^＠^*)o 乖～
 gun    滚来滚去……~(～o￣▽￣)～o 。。。滚来滚去……o～(＿△＿o～) ~。。。
-ha    (´・ω・`)
 ha    ( ˘•ω•˘ )
 ha    ( ￣▽￣)"
+ha    (´・ω・`)
 ha    ＞▽＜
-haha    >^.^<
 haha    *´∀`)´∀`)*´∀`)*´∀`)
+haha    >^.^<
 haha    o(*≧▽≦)ツ
 hai    (;_;)/~~~
 hai    (=゜ω゜)ノぃょぅ
 hai    (｡･∀･)ﾉﾞ
 hai    ヾ(≧∇≦*)ゝ
+haixiu    (*/ω＼*)
 haixiu    (′▽`〃)
+haixiu    (✿◡‿◡)
 haixiu    o(*////▽////*)q
 haixiu    （＃￣▽￣＃）
 han    (-_-;)
@@ -119,6 +125,7 @@ han    (￣▽￣")
 han    (￣▽￣|||)
 han    = =b
 han    |(*′口`)
+han    Σ( ° △ °|||)︴
 hao    o(*^▽^*)o [好~~]
 hao    ＼（⌒∇⌒）／
 haoa    (^o^)
@@ -194,6 +201,7 @@ ku    TAT
 ku    T_T
 ku    π__π
 ku    ಥ_ಥ
+ku    ┭┮﹏┭┮
 ku    好苦~( ＞﹏＜)
 ku    （┬＿┬）
 kule    ︸_︸
@@ -207,6 +215,7 @@ laile    o(ﾟ∀ﾟ)o
 lairenna    [来人呐~](o ;′Д`)ノ゛
 lala    ♪(^∇^*)
 lalala    ...φ(0￣*)啦啦啦_φ(*￣0￣)>
+lalala    ♪(^∇^*)
 le    \(≧▽≦)/
 le    φ(≧ω≦*)♪
 lei    (┳＿┳)...
@@ -277,6 +286,7 @@ qiang    ▄︻┻┳═一……
 qidai    [期待] (☆▽☆)
 qie    (¬､¬)
 qie    (ˉ▽￣～) 切~~
+qie    (ーー゛)
 qie    ╮(￣▽￣)╭
 qie    切~~( ﹁ ﹁ ) ~~~
 qie    ￢_,￢
@@ -284,6 +294,7 @@ qin    ( ˘ ³˘)♥
 qin    ლ(｡◕ˇε ˇ◕。ლ)
 qin    ◕ˇε ˇ◕
 qin    ♪(´ε｀ )
+qin    （づ￣3￣）づ╭❤～
 qing    ( ^ ^) _U~~
 qingwen    (．．)
 qinqin    (* ˘ ³˘)♡
@@ -347,6 +358,7 @@ touxiang    ┗( T﹏T )┛[举手投降]
 tuidao    (ﾉ*･ω･)ﾉ
 tuozou    ヽ(゜▽゜　)－C<(/;◇;)/~[拖走]
 wa    (☆＿☆)
+wa    ╰(*°▽°*)╯
 wa    ❀‿❀
 wabishi    [挖鼻屎] (*￣rǒ￣)
 wakaka    <(￣▽￣)/
@@ -428,6 +440,7 @@ yanmian    (*/ω＼*)[脸红掩面]
 yanshen    ━┳━　━┳━
 ye    (＾－＾)V
 ye    ∩__∩y耶~~^^
+ye    ヽ(✿ﾟ▽ﾟ)ノ
 yesi    [噎死] ( *⊙~⊙)
 yessir    Yes,sir! <(￣O￣)/
 yezhu    [噎住] ( *⊙~⊙)
