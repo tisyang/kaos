@@ -13,13 +13,14 @@
 a    (>_<)
 a    ⊙▂⊙
 a    ⊙０⊙
-aaa    "o((>ω< ))o"
+aaa    o((>ω< ))o
 aaa    o(≧口≦)o
 aaa    Ｏ(≧口≦)Ｏ
 ai    ╮(╯_╰)╭
 ai    ╮（﹀＿﹀）╭
 aiyo    (￣y▽,￣)╭ 哎哟哟……
-anan    安安啦~~~ o(*￣▽￣*)ブ
+an    安啦~~~ o(*￣▽￣*)ブ
+ano    (．． )"~えっと、あのぉ・・・
 ao    (>▽<)
 ao    ´◔ ‸◔`
 ao    ┗|｀O′|┛ 嗷~~
@@ -27,20 +28,16 @@ ao    ヽ(･∀･)メ
 ao    ヾ(≧O≦)〃嗷~
 ao    ＼(◎o◎)／
 baga    l(｡-ω-)l
+bai    (o^0^o)/~~~~~~~バイバ～イ！！
 bai    ヾ(￣▽￣)Bye~Bye~
-baibai    (o^0^o)/~~~~~~~バイバ～イ！！
-baifo    (-人-) [拜佛]
-baile    (o_ _)ﾉ
+baibai    (o_ _)ﾉ
 bang    (๑•̀ㅂ•́)و✧
 baobao    \(T︶T*\))抱抱~
 baobao    \(￣︶￣)/ 抱抱~
 baobao    \(￣︶￣*\))抱抱~
 baobao    ＼（￣︶￣）／
 baotou    ▄︻┻┳═一…… ☆（>○<）
-baoxiao    o(*≧▽≦)ツ
-baoxiao    ヾ(≧▽≦*)o
-biaolei    //( ㄒ o ㄒ )//
-biaolei    T^T"///
+beizi    (:з[____]
 bie    (＞﹏＜)
 biechao    ＜（－︿－）＞
 bieku    < ( ￣︶￣ ) ╱ ( o 〒﹏〒 o )
@@ -52,21 +49,15 @@ cao    凸(艹皿艹 )
 ceng    ( *￣▽￣)((≧︶≦*) [蹭]
 ceng    [蹭](*≧︶≦))(￣▽￣* )ゞ
 cha    ×
-chaoxiao    q(≧▽≦q)
 chiyao    (。>︿<)_θ[吃药]
 chou    (￣ε(#￣)☆╰╮o(￣皿￣///)
-choup    ヾ(′▽｀*)ゝ[包在我身上!]
 chouqi    (ノへ￣、)[抽泣]
-chufa    （￣︶￣）↗
-chuolian    →)╥﹏╥) [戳]
-dagai    (・-・*)
+chuo    →)╥﹏╥) [戳]
 dai    ━┳━　━┳━
-daji    (。_。)
 daku    ━┳━　━┳━
 dangran    (¯^¯ )
 dangran    <(ˉ^ˉ)>
 daxiaoyan    o_O
-denghao    〓
 dese    ～(￣▽￣～)(～￣▽￣)～
 deyi    (*˘︶˘*)
 deyi    <(￣ˇ￣)/
@@ -83,7 +74,9 @@ e    -________-''
 e    o(` · ~ · ′。)o
 e    ⊙︿⊙
 en    O(∩_∩)O嗯！
+en    ヾ(≧へ≦)〃[嗯!]
 en    嗯~ o(*￣▽￣*)o
+en    嗯！o(￣︶￣)n
 enen    (♡˙︶˙♡)
 enen    ＜（＠￣︶￣＠）＞
 fangkuai    ■
@@ -91,12 +84,9 @@ fangkuai    □
 fei    ︿(￣︶￣)︿
 fen    ′
 fudi    _(:з」∠)_
-gaibeizi    (:з[____]
 ganbei    []~(￣▽￣)~*
 ganbei    []~(￣▽￣)~* 干杯！
-ganga    ╮（￣▽￣）╭
 gaoxing    φ(゜▽゜*)♪
-gfw    ┳G┻┳F┳┻W┫
 go    <(￣︶￣)↗[GO!]
 good    Good! o(￣▽￣)ｄ
 gou    √
@@ -107,9 +97,11 @@ ha    ( ˘•ω•˘ )
 ha    ( ￣▽￣)"
 ha    (´・ω・`)
 ha    ＞▽＜
-haha    *´∀`)´∀`)*´∀`)*´∀`)
 haha    >^.^<
+haha    \(≧▽≦)/
 haha    o(*≧▽≦)ツ
+haha    φ(≧ω≦*)♪
+haha    ヾ(≧▽≦*)o
 hai    (;_;)/~~~
 hai    (=゜ω゜)ノぃょぅ
 hai    (｡･∀･)ﾉﾞ
@@ -129,11 +121,13 @@ han    Σ( ° △ °|||)︴
 hao    o(*^▽^*)o [好~~]
 hao    ＼（⌒∇⌒）／
 haoa    (^o^)
+haoba    (。_。)
+haoba    (・-・*)
 haoba    好吧…… ╮(╯-╰)╭
 haochi    (๑´ڡ`๑)
 haode    (u‿ฺu✿ฺ)
 haode    （゜▽＾*））
-haogaoxing    ^_________________^
+haokaixin    ^_________________^
 haokeai    （*＾-＾*）
 haoleng    (>＿<)}}
 haoleng    ≡￣﹏￣≡
@@ -149,10 +143,6 @@ heng    ,,Ծ‸Ծ,,
 heng    o(￣ヘ￣o＃)
 heng    （︶︿︶）
 hengheng    (＠￣ー￣＠)
-hh    (￣▽￣")
-hh    o(*￣▽￣*)o
-hhh    ^-^
-hhh    ^O^
 hi    Hi~ o(*￣▽￣*)ブ
 hiahia    ○( ＾皿＾)っHiahiahia....
 hoho    (￣y▽￣)╭ Ohohoho.....
@@ -167,15 +157,13 @@ huanhu    *\ ( ^ v ^ )/*
 huhu    (_　_)。゜zｚＺ
 huhuan    (/0￣)o [呼唤]
 huoche    ●┻┓⌒ Σ┌┘車└┐=3 =3 =3
-huojiantong    [火箭筒，发射！](*￣皿￣)=Σ口＞=Σ口＞=Σ口＞
-jiandao    8＜
-jianxiao    (≖ ‿ ≖)✧
+huojian    [火箭筒，发射！](*￣皿￣)=Σ口＞=Σ口＞=Σ口＞
 jiao    (￣～￣) 嚼！
 jiayou    *\(^_^)/*
+jiayou    ٩(๑`^´๑)۶
 jiayou    加油！(o^^)oo(^^o)
 jing    (⊙ˍ⊙)
 jiong    （´Д`）
-jiujiuwo    ＿（＿＿)ノ彡
 jiuni    <(￣ ﹌ ￣)@m 就你！
 jizhang    (┘￣︶￣)┘└(￣︶￣└)[GiveMeFive!]
 jizhang    (〃￣︶￣)人(￣︶￣〃)[击掌]
@@ -189,7 +177,6 @@ kaixin    ╰(*´︶`*)╯
 kaixin    ＜（￣︶￣）／
 kaixin    ＜（￣︶￣）＞
 kan    ಠ_ಠ
-kaoyu    <。 )#)))≦
 keai    n(*≧▽≦*)n
 keke    咳咳＞＜
 kewu    （＝。＝）
@@ -197,7 +184,10 @@ koushui    (￣﹁￣)
 koushui    ˋ( ° ▽、° ) 口水ing...
 koushui    （¯﹃¯）口水ing
 ku    ( >﹏<。)～呜呜呜……
+ku    //( ㄒ o ㄒ )//
+ku    Q_Q
 ku    TAT
+ku    T^T"///
 ku    T_T
 ku    π__π
 ku    ಥ_ಥ
@@ -216,22 +206,14 @@ lairenna    [来人呐~](o ;′Д`)ノ゛
 lala    ♪(^∇^*)
 lalala    ...φ(0￣*)啦啦啦_φ(*￣0￣)>
 lalala    ♪(^∇^*)
-le    \(≧▽≦)/
-le    φ(≧ω≦*)♪
-lei    (┳＿┳)...
-lei    /(ㄒoㄒ)/~~
 leng    {{{(>_<)}}}
 lengzhu    [楞住](°ー°〃)
 lianhong    (*/ω＼*)[脸红掩面]
 lianhong    >//////<
-lingxing    ◆
-lingxing    ◇
 liulei    （┬＿┬）
 manzu    o(*￣︶￣*)o
 manzu    o(￣ˇ￣)o
 max    MIN■■■■■□□MAX
-meibanf    ╮(￣▽￣")╭ 没办法~
-meiren    ┐(T.T ) ( T.T) ノだれかいる～？
 mianbi    ( ￣ ￣)σ…( ＿ ＿)ノ｜壁
 miao    (=^_^=)
 miao    =￣ω￣=
@@ -239,19 +221,16 @@ miao    ≡ω≡
 miao    喵~ ＞▽＜
 miao    喵~o( =∩ω∩= )m
 miaoo    ″
-miehhh    (/￣ˇ￣)/
-miehhh    咩哈哈哈哈……<(*￣▽￣*)/
+miehaha    (/￣ˇ￣)/
+miehaha    咩哈哈哈哈……<(*￣▽￣*)/
 mingku    ε(┬┬﹏┬┬)3 命苦...
 mobai    (o´_　_)o)
-mojiezuo    Capricorn
+momo    <( ￣︶￣)╱(._. )
 momo    [摸摸头](～￣▽￣)ノ
 momo    ╰(￣ω￣ｏ) [摸摸头]
-momotou    <( ￣︶￣)╱(._. )
 mua    mua! (*╯3╰)
-n    ヾ(≧へ≦)〃[嗯!]
-n    嗯！o(￣︶￣)n
-nage    (．． )"~えっと、あのぉ・・・
 nanguo    (｡í _ ì｡)
+ni    [你你你……] ～(　TロT)σ
 ni    [是不是你?!](σ｀д′)σ
 ni    Σ( ￣д￣；) 你！！
 niao    --\(˙<>˙)/--
@@ -259,8 +238,6 @@ nie    ~(￣▽￣)~*
 nihao    (・_・)ノいよぅ
 nihao    (￣▽￣)ノ
 nihao    ヾ(´･ω･｀)ﾉ
-nihuilaila    ヾ(^▽^*))) 你回来啦~~
-nini    [你你你……] ～(　TロT)σ
 nu    (｡•ˇ‸ˇ•｡)
 o    (⊙o⊙)？
 o    (〓￣(∵エ∵)￣〓)
@@ -268,7 +245,6 @@ o    _(￣0￣)_[哦~]
 o    ￣o￣
 ohno    Oh~ no！！！！
 ohye    Oh yeah！\(^&^)/
-oi    (゜゜)～
 pai    (*￣∇￣)ノ
 paishou    [拍手]└(￣ ￣└)(┘￣ ￣)┘[拍手]
 paishou    ””\\(￣ー￣) (￣ー￣)//””[拍手拍手]
@@ -279,7 +255,6 @@ pia    Pia!(ｏ ‵-′)ノ”(ノ﹏<。)
 piao    (～o￣3￣)～
 piao    (～￣▽￣)～
 piao    .....((/- -)/
-ppr    ︿(￣︶￣)︿[飘飘然……]
 pu    (/≧▽≦)/
 qian    $_$
 qiang    ▄︻┻┳═一……
@@ -296,7 +271,6 @@ qin    ◕ˇε ˇ◕
 qin    ♪(´ε｀ )
 qin    （づ￣3￣）づ╭❤～
 qing    ( ^ ^) _U~~
-qingwen    (．．)
 qinqin    (* ˘ ³˘)♡
 qinqin    (* ￣)(￣▽￣*)ゞ[亲亲]
 qinqin    [亲亲]o(*￣3￣)o
@@ -307,7 +281,6 @@ ruoruo    (。・・)ノ
 sahua    ‧★,:*:‧\(￣▽￣)/‧:*‧°★*
 sahua    撒花！(￣▽￣)o∠※PAN!=.:*:'☆.:*:'★':*
 sahua    撒花！*★,°*:.☆\(￣▽￣)/$:*.°★* 。
-sandan    散弹发射！！▄︻┻┳═一∵∴∷∶∵ (∵_,∵)>>>>
 sanjiao    ▲
 sanjiao    △
 shang    ↑
@@ -318,8 +291,8 @@ shengqi    （｀へ´）
 shenmeshi    (‧_‧？)
 sheshidu    ℃
 shia    (ﾟｰﾟ)
+shia    ヾ(＠⌒ー⌒＠)ノ
 shia    ﾟ∀ﾟ
-shiashia    ヾ(＠⌒ー⌒＠)ノ
 shibushini    [是不是你?!](σ｀д′)σ
 shiluo    (。_。)
 shiluo    (｡í _ ì｡)
@@ -330,8 +303,7 @@ shuijiao    (¦3ꇤ[▓▓]
 shy    shy~ o(*////▽////*)q
 siba    ┴┴︵╰（‵□′）╯︵┴┴
 soga    ▔▽▔
-t    <( ￣^￣)(θ(θ☆( >_<
-taibangl    ヾ（≧∇≦）〃
+taibangle    ヾ（≧∇≦）〃
 taibangle    ㄟ(≧◇≦)ㄏ
 tanshou    ┑(￣Д ￣)┍
 tanshou    ╮(╯-╰)╭
@@ -347,6 +319,7 @@ taozui    [陶醉]( *︾▽︾)
 tat    o(TヘTo)
 tat    o(≧∩≦)o
 thx    ☆⌒(*＾-゜)v THX!!
+ti    <( ￣^￣)(θ(θ☆( >_<
 tiaoshi    ( *^-^)ρ(*╯^╰)[不吃!]
 tongku    ≧︿≦
 tongku    ＞﹏＜
@@ -398,7 +371,6 @@ wu    ⊙﹏⊙
 wunai    ╮(╯▽╰)╭
 wunai    ╯▂╰
 wunai    ╯︿╰
-xia    (*Φ皿Φ*)
 xia    ↓
 xiang    (╯▽╰ ) 好香~~
 xiangshou    [享受](╯▽╰ )
@@ -430,32 +402,32 @@ xiu    (◕ฺ‿◕ฺ✿ฺ)
 xiu    d(∀｀d*)─(*b´∀)b
 xiu    o(*////▽////*)q
 xiu    p(#￣▽￣#)o
-y    (*￣▽￣)y
-y    (*￣︶￣)y
-y    ^_^)y
 ya    （*≧ｍ≦*）
 yada    (≧∀≦*)ﾉ
-yanlei    Q_Q
 yanmian    (*/ω＼*)[脸红掩面]
 yanshen    ━┳━　━┳━
+ye    (*￣▽￣)y
+ye    (*￣︶￣)y
 ye    (＾－＾)V
+ye    ^_^)y
 ye    ∩__∩y耶~~^^
 ye    ヽ(✿ﾟ▽ﾟ)ノ
 yesi    [噎死] ( *⊙~⊙)
 yessir    Yes,sir! <(￣O￣)/
 yezhu    [噎住] ( *⊙~⊙)
 yi    (・∀・(・∀・(・∀・*)
+yingyingying    (┳＿┳)...
+yingyingying    /(ㄒoㄒ)/~~
 yiwen    ◎−◎？
 yo    (＾Ｕ＾)ノ~ＹＯ
 yo    (￣(エ)￣)ノ よー
 you    →
 you    ーー（＾Ｕ＾）ノーーＹＯ
-youhuakuaishuo    ........ ( . .)
 youle    (o゜▽゜)o☆[有了!]
 youpie    ━━┳　━━┳
 yourenma    ||o(*°▽°*)o|Ю [有人吗?]
 yoxi    哟西！（９￣＾￣）９
-yu    >°)))>彡
+yu    <。 )#)))≦
 yuan    ○
 yuan    ●
 yuanlai    ('-'*)
@@ -471,7 +443,7 @@ zaixiang    ( ' = ' )それは・・・・・ 考える　（＝＿＝）う～�
 zancheng    o(*'▽'*)/
 zaoan    (朝´∀｀)｛♪Good Morning♪｝(´∀｀朝)
 zaoan    早安~~~ o(*￣▽￣*)ブ
-zaodianhuilaio    [早点回来哦~](～￣(OO)￣)ブ
+zaodianhuilai    [早点回来哦~](～￣(OO)￣)ブ
 zaogao    X﹏X 糟糕！
 zaoshanghao    (( ((((((( ρ . - ) おはよう～
 zaoshanghao    (*´∀`)ノ
@@ -499,6 +471,7 @@ zhui    o(°▽、°o)....+((￣﹏￣m )~ 你给我回来！
 zhuisha    --＝＝≡≡〈〈《( /￣皿￣)=Ｏ));>o<）/
 zhuisha    o(°▽、°o)....+((￣﹏￣m )
 zisha    …〒_〒…‵ｏ′-一┳═┻︻▄［畏罪自杀…］
+zou    （￣︶￣）↗
 zouni    ( ☉_☉)≡☞o────★°
 zouni    O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿　
 zuijiao    (*ﾟｰﾟ)
