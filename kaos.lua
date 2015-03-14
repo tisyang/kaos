@@ -10,8 +10,8 @@
 -- bug 反馈以及意见反馈请联系 tisyang
 -- 项目地址: https://github.com/tisyang/kaos/
 -- blog: http://tisyang.i11r.com
--- 生成时间: 2014-12-05 21:40:14 +0800
--- 颜文字词条数: 478
+-- 生成时间: 2015-03-14 21:11:27 +0800
+-- 颜文字词条数: 479
 
 dict = {
 	["a"] = {
@@ -306,6 +306,10 @@ dict = {
 
 	["chuolian"] = {
 		[==[→)╥﹏╥)]==],
+	},
+
+	["dabai"] = {
+		[==[(●─●)]==],
 	},
 
 	["dagai"] = {
@@ -2288,6 +2292,7 @@ trigger_0 = {
 	'chunku',
 	'chuo',
 	'chuolian',
+	'dabai',
 	'dagai',
 	'daheqian',
 	'dai',
@@ -2419,10 +2424,10 @@ trigger_0 = {
 	'keke',
 	'kewu',
 	'kge',
-	'kiss',
 }
 
 trigger_1 = {
+	'kiss',
 	'kongbu',
 	'koushui',
 	'ku',
@@ -2622,10 +2627,10 @@ trigger_1 = {
 	'xiee',
 	'xiexie',
 	'xiey',
-	'xieyan',
 }
 
 trigger_2 = {
+	'xieyan',
 	'xingfen',
 	'xingfu',
 	'xinghao',
