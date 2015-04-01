@@ -65,6 +65,7 @@ bobo    (* ￣3)(ε￣ *)
 buchi    ( *^-^)ρ(*╯^╰)
 budong    (＠_＠;)
 buhaoyisi    o(￣┰￣*)ゞ
+bukaixin    (๑´╹‸╹`๑)
 bukaixin    (｡•́︿•̀｡)
 bukaixin    ￣へ￣
 bukan    (/▽＼)
@@ -148,6 +149,7 @@ eee    (⊙﹏⊙)
 eee    -________-''
 ei    (´◔౪◔)۶
 en    ( ´◔ ‸◔`)
+en    (✩´•௰•`✩)
 en    O(∩_∩)O嗯！
 en    ヾ(≧へ≦)〃[嗯!]
 en    嗯~ o(*￣▽￣*)o
@@ -208,6 +210,7 @@ hahahaha    *´∀`)´∀`)*´∀`)*´∀`)
 hai    (;_;)/~~~
 hai    (=゜ω゜)ノぃょぅ
 hai    (｡･∀･)ﾉﾞ
+hai    \(( °∀° ))ﾉ
 hai    ヾ(≧∇≦*)ゝ
 haixiu    (*/ω＼*)
 haixiu    (′▽`〃)
@@ -249,6 +252,7 @@ haozhuyi    (o゜▽゜)o☆[好主意!]
 happy    (´▽`ʃ♡ƪ)
 hehe    o(*￣▽￣*)o
 hehe    ╭∩╮（￣▽￣）╭∩╮
+heihei    (●⁰౪⁰●)
 heihei    o(*￣▽￣*)ゞ
 heihei    థ ౪ థ
 hema    （￣。。￣）
@@ -260,6 +264,7 @@ hengheng    (；′⌒`)
 hengheng    (＠￣ー￣＠)
 hengheng    o(￣ヘ￣o＃)
 hi    Hi~ o(*￣▽￣*)ブ
+hi    ヾ(๑╹◡╹)ﾉ"
 hiahia    ○( ＾皿＾)っHiahiahia....
 hiahia    ○( ＾皿＾)っHiahiahia…
 high    (( へ(へ´∀`)へ
@@ -293,6 +298,7 @@ jiayou    (ง •_•)ง
 jiayou    *\(^_^)/*
 jiayou    ٩( 'ω' )و
 jiayou    ٩(๑`^´๑)۶
+jiayou    ╭( ･ㅂ･)و
 jiayou    加油！(o^^)oo(^^o)
 jinchi    ( ͡° ͜ʖ ͡°)
 jing    (⊙ˍ⊙)
@@ -316,8 +322,10 @@ jushou    (.・△・）ノ
 jushou    _( ﾟДﾟ)ﾉ
 jushou    o(*^▽^*)┛
 jushou    o(*^▽^*)┛[举手]
+kaixin    (　‘◟ ‘)✧
 kaixin    \(≧ω≦)/
 kaixin    ╰(*´︶`*)╯
+kaixin    ◝(*⁰▿⁰*)◜
 kaixin    ＜（￣︶￣）／
 kaixin    ＜（￣︶￣）＞
 kalaok    ...φ(0￣*)啦啦啦_φ(*￣0￣)′
@@ -334,6 +342,8 @@ koushui    (￣﹁￣)
 koushui    ˋ( ° ▽、° ) 口水ing...
 koushui    （¯﹃¯）口水ing
 ku    ( >﹏<。)～呜呜呜……
+ku    (*Ծ﹏Ծ)ぐ
+ku    (٥﹏٥` )
 ku    //( ㄒ o ㄒ )//
 ku    Q_Q
 ku    TAT
@@ -348,6 +358,7 @@ ku    （┬＿┬）
 kuaile    (*^▽^*)
 kule    ︸_︸
 kun    (￣o￣) . z Z
+kunle    (´ぅω・｀)
 kunle    (～ o ～)~zZ
 kunle    (￣o￣) . z Z
 kunnao    ( -'`-; )
@@ -528,6 +539,8 @@ shenmedongxi    ( ｀д′)
 shenmeshi    (‧_‧？)
 shequan    z(-_-z)).....((s-_-)s
 sheshidu    ℃
+shi    ◟(⁰𠆢⁰∗)
+shi    ヽ(•̀﹏•́ )ゝ
 shia    (ﾟｰﾟ)
 shia    ヾ(＠⌒ー⌒＠)ノ
 shia    ﾟ∀ﾟ
@@ -536,6 +549,7 @@ shibushini    (σ｀д′)σ
 shibushini    [是不是你?!](σ｀д′)σ
 shihua    ━━∑(￣□￣*|||━━
 shihuai    ԅ(¯﹃¯ԅ)
+shiluo    ( ◞‸◟)
 shiluo    (。_。)
 shiluo    (｡í _ ì｡)
 shima    (￣m￣）
@@ -663,6 +677,7 @@ xianzhuo    (／‵Д′)／~ ╧╧
 xianzhuo    （╯‵□′）╯︵┴─┴
 xianzhuo    （╯－＿－）╯╧╧
 xiao    (^﹏^)"
+xiao    (´･◡･｀)
 xiao    ……o((≧▽≦o) 太好笑了！！
 xiao    ≧▽≦
 xiao    （*∩_∩*）
@@ -715,6 +730,7 @@ yesi    [噎死] ( *⊙~⊙)
 yessir    Yes,sir! <(￣O￣)/
 yezhu    [噎住] ( *⊙~⊙)
 yi    (・∀・(・∀・(・∀・*)
+yi    |ω･`)
 yingyingying    (┳＿┳)...
 yingyingying    /(ㄒoㄒ)/~~
 yiqi    ヽ(￣ω￣(￣ω￣〃)ゝ
@@ -744,9 +760,11 @@ zaijian    (。・_・)/~~~またね～
 zaijian    (ﾟ∇^*)
 zaijian    ┏(＾0＾)┛
 zaijian    ヾ(*^▽^*)ノ"☆Bye ☆Bye
+zaijian    ヾﾉ｡ÒㅅÓ)ﾉｼ
 zaixiang    ( ' = ' )それは・・・・・ 考える　（＝＿＝）う～ん
 zan    (((o(*ﾟ▽ﾟ*)o)))
 zancheng    o(*'▽'*)/
+zao    ٩(๑`^´๑)۶
 zaoan    (朝´∀｀)｛♪Good Morning♪｝(´∀｀朝)
 zaoan    早安~~~ o(*￣▽￣*)ブ
 zaodianhuilai    [早点回来哦~](～￣(OO)￣)ブ
@@ -788,10 +806,14 @@ zilian    (◡ᴗ◡✿)
 zipai    *(੭*ˊᵕˋ)੭*ଘ
 zisha    …〒_〒…‵ｏ′-一┳═┻︻▄
 zisha    …〒_〒…‵ｏ′-一┳═┻︻▄［畏罪自杀…］
+zou    ( ノ・ω・)ノ
 zou    （￣︶￣）↗
 zoula    ( ﾟдﾟ)つBye
 zouni    ( ☉_☉)≡☞o────★°
 zouni    O-(///￣皿￣)☞ ─═≡☆゜★█▇▆▅▄▃▂＿　
+zouzhe    ٩( 'ω' )و
+zouzhe    ᕕ( 'ω')ᕗ
+zouzhe    ᕕ( ˙꒳​˙)ᕗ
 zuijiao    (*ﾟｰﾟ)
 zuo    ←
 zuomeng    ZZzz…(。-ω-)..ooO((【·:*:~夢~:*:·】))
